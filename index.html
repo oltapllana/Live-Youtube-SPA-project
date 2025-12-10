@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="sq">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>YouTube Live Scheduler</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+<header>
+<h1>YouTube Live Scheduler</h1>
+<div class="controls" >
+<input id="instanceUrl" type="text" style="display: none;" placeholder="Paste instance JSON URL (raw)" />
+<button id="loadBtn" style="display: none;">Load schedule</button>
+</div>
+<div class="channel-selector">
+<label for="channelSelect">Select Channel:</label>
+<select id="channelSelect">
+<option value="all">All Channels</option>
+</select>
+</div>
+</header>
+
+
+<main>
+<div id="status">Status: waiting for schedule...</div>
+<div id="programInfo"></div>
+
+
+<div id="playerContainer">
+<!-- iframe will be injected here -->
+<div id="playerPlaceholder">No video loaded</div>
+</div>
+
+
+<div id="miniGuide"></div>
+</main>
+
+
+<footer>
+<small>Designed for GitHub Pages / static hosting • Autoplay + fullscreen behavior depends on browser policies (user gesture may be required).</small>
+</footer>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
