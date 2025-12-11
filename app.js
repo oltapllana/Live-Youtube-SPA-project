@@ -376,6 +376,7 @@ function renderIdleInfo(next) {
   `;
 }
 
+
 function updateProgramUI(active, now, next) {
   renderProgramInfo(active, now);
 
@@ -388,10 +389,16 @@ function updateProgramUI(active, now, next) {
     bar.style.width = `${percent}%`;
   }
 
+  const floatTitle = document.getElementById("floatingTitle");
+  if (floatTitle) {
+    floatTitle.textContent = `🔴 LIVE — ${active.channel_name}`;
+  }
+
   updateNowBar(active);
 
   updateUpNextUI(active, next, now);
 }
+
 
 function updateNowBar(active) {
   if (!nowBar || !nowBarTitle || !nowBarMeta || !nowBarProgress) return;
