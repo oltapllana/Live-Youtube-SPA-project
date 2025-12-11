@@ -1,6 +1,6 @@
 {
   "opening_time": 0,
-  "closing_time": 742,
+  "closing_time": 719,
   "min_duration": 30,
   "max_consecutive_genre": 2,
   "channels_count": 100,
@@ -8,69 +8,69 @@
   "termination_penalty": 15,
   "priority_blocks": [
     {
-      "start": 432,
-      "end": 531,
+      "start": 417,
+      "end": 526,
       "allowed_channels": [
-        89, 76, 75, 33, 42, 21, 47, 16, 14, 58, 74, 62, 61, 70, 19, 84, 82, 43,
-        59, 38, 67, 24, 26, 44, 91, 23, 56, 83, 90, 81, 66, 8, 95, 32, 78
+        86, 53, 10, 37, 62, 95, 18, 1, 84, 58, 41, 27, 76, 11, 61, 28, 25, 45,
+        77, 20, 92, 72, 32, 4, 6, 98, 42, 85, 19, 57, 39, 43, 64, 65, 87
       ]
     },
     {
-      "start": 892,
-      "end": 742,
+      "start": 909,
+      "end": 719,
       "allowed_channels": [
-        64, 32, 31, 86, 69, 79, 43, 48, 13, 99, 47, 20, 63, 29, 34, 94, 75, 9,
-        53, 18, 41, 14, 8, 92, 38, 25, 46, 40, 68, 54, 11, 91, 45, 88, 67, 37,
-        22, 35, 30, 71, 7, 58, 44, 0, 17
+        42, 44, 99, 90, 34, 16, 50, 88, 35, 48, 7, 33, 0, 36, 22, 43, 56, 85,
+        11, 81, 37, 52, 80, 98, 5, 41, 53, 6, 70, 28, 39, 97, 3, 71, 63, 29, 24,
+        62, 60, 21, 58, 51, 79, 46, 4
       ]
     },
     {
-      "start": 1143,
-      "end": 742,
+      "start": 1124,
+      "end": 719,
       "allowed_channels": [
-        91, 72, 92, 96, 94, 70, 64, 45, 87, 4, 75, 26, 66, 14, 88, 46, 68, 41,
-        17, 93, 81, 48, 60, 77, 11, 55, 71, 84, 10, 95, 52, 24, 18, 65, 47, 98,
-        40, 51, 53, 9, 30, 80, 8, 74, 83, 63, 27, 20, 22, 61, 39, 57, 23, 54, 6,
-        86, 99, 90, 7, 3
+        16, 22, 94, 65, 57, 1, 42, 80, 74, 30, 37, 79, 27, 56, 99, 72, 82, 18,
+        59, 14, 40, 55, 86, 23, 61, 96, 48, 84, 38, 88, 34, 31, 39, 98, 24, 9,
+        8, 15, 81, 50, 43, 69, 62, 63, 25, 64, 26, 91, 70, 58, 46, 29, 6, 54,
+        19, 12, 33, 95, 4, 45
       ]
     }
   ],
   "time_preferences": [
     {
       "start": 0,
-      "end": 554,
+      "end": 549,
       "preferred_genre": "news",
-      "bonus": 54
+      "bonus": 56
     },
     {
-      "start": 554,
-      "end": 703,
+      "start": 549,
+      "end": 717,
       "preferred_genre": "kids",
-      "bonus": 31
+      "bonus": 37
     },
     {
-      "start": 703,
-      "end": 742,
-      "preferred_genre": "documentary",
-      "bonus": 29
+      "start": 717,
+      "end": 719,
+      "preferred_genre": "drama",
+      "bonus": 32
     },
     {
-      "start": 742,
-      "end": 742,
-      "preferred_genre": "gaming",
-      "bonus": 44
+      "start": 719,
+      "end": 719,
+      "preferred_genre": "kids",
+      "bonus": 51
     },
     {
-      "start": 742,
-      "end": 742,
+      "start": 719,
+      "end": 719,
       "preferred_genre": "sports",
-      "bonus": 105
+      "bonus": 90
     },
     {
-      "start": 742,
-      "end": 742,
-      "preferred_genre": "gaming",
-      "bonus": 25
+      "start": 719,
+      "end": 719,
+      "preferred_genre": "talk",
+      "bonus": 33
     }
   ],
   "channels": [
@@ -81,42 +81,42 @@
         {
           "program_id": "L_CH0_P0",
           "start": 0,
-          "end": 86,
+          "end": 114,
           "genre": "news",
-          "score": 74,
-          "link": "https://www.youtube.com/watch?v=-v9g6KdtI_4"
+          "score": 72,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH0_P1",
-          "start": 86,
-          "end": 212,
-          "genre": "news",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "start": 114,
+          "end": 199,
+          "genre": "talk",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         },
         {
           "program_id": "L_CH0_P2",
-          "start": 212,
-          "end": 356,
+          "start": 199,
+          "end": 273,
           "genre": "news",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=gz46MascGhg"
         },
         {
           "program_id": "L_CH0_P3",
-          "start": 356,
-          "end": 489,
-          "genre": "news",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "start": 273,
+          "end": 321,
+          "genre": "sports",
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH0_P4",
-          "start": 489,
-          "end": 601,
+          "start": 321,
+          "end": 391,
           "genre": "news",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "score": 52,
+          "link": "https://www.youtube.com/watch?v=rdy7xm-NEFE"
         }
       ]
     },
@@ -127,42 +127,42 @@
         {
           "program_id": "L_CH1_P0",
           "start": 0,
-          "end": 150,
-          "genre": "drama",
-          "score": 65,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "end": 147,
+          "genre": "sports",
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH1_P1",
-          "start": 150,
-          "end": 297,
+          "start": 147,
+          "end": 215,
           "genre": "news",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "score": 69,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         },
         {
           "program_id": "L_CH1_P2",
-          "start": 297,
-          "end": 445,
+          "start": 215,
+          "end": 316,
           "genre": "news",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         },
         {
           "program_id": "L_CH1_P3",
-          "start": 445,
-          "end": 534,
+          "start": 316,
+          "end": 402,
           "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH1_P4",
-          "start": 534,
-          "end": 662,
+          "start": 402,
+          "end": 436,
           "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=KK9eki0N8sQ"
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         }
       ]
     },
@@ -173,42 +173,42 @@
         {
           "program_id": "L_CH2_P0",
           "start": 0,
-          "end": 53,
-          "genre": "kids",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "end": 95,
+          "genre": "news",
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH2_P1",
-          "start": 53,
-          "end": 176,
+          "start": 95,
+          "end": 173,
           "genre": "news",
-          "score": 77,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         },
         {
           "program_id": "L_CH2_P2",
-          "start": 176,
-          "end": 330,
+          "start": 173,
+          "end": 318,
           "genre": "news",
-          "score": 65,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "score": 91,
+          "link": "https://www.youtube.com/watch?v=IvqVBNkToO4"
         },
         {
           "program_id": "L_CH2_P3",
-          "start": 330,
-          "end": 379,
+          "start": 318,
+          "end": 355,
           "genre": "news",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH2_P4",
-          "start": 379,
-          "end": 523,
+          "start": 355,
+          "end": 470,
           "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         }
       ]
     },
@@ -219,42 +219,42 @@
         {
           "program_id": "L_CH3_P0",
           "start": 0,
-          "end": 150,
-          "genre": "news",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "end": 153,
+          "genre": "music",
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH3_P1",
-          "start": 150,
-          "end": 306,
+          "start": 153,
+          "end": 218,
           "genre": "news",
-          "score": 92,
-          "link": "https://www.youtube.com/watch?v=YQT-BZr5pp0"
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=fEfGW6ufpi4"
         },
         {
           "program_id": "L_CH3_P2",
-          "start": 306,
-          "end": 442,
-          "genre": "news",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "start": 218,
+          "end": 278,
+          "genre": "music",
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH3_P3",
-          "start": 442,
-          "end": 581,
+          "start": 278,
+          "end": 395,
           "genre": "news",
           "score": 72,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         },
         {
           "program_id": "L_CH3_P4",
-          "start": 581,
-          "end": 717,
+          "start": 395,
+          "end": 489,
           "genre": "news",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=KK9eki0N8sQ"
+          "score": 61,
+          "link": "https://www.youtube.com/watch?v=fEfGW6ufpi4"
         }
       ]
     },
@@ -265,42 +265,42 @@
         {
           "program_id": "L_CH4_P0",
           "start": 0,
-          "end": 159,
+          "end": 72,
           "genre": "news",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=fEfGW6ufpi4"
         },
         {
           "program_id": "L_CH4_P1",
-          "start": 159,
-          "end": 272,
+          "start": 72,
+          "end": 220,
           "genre": "news",
-          "score": 91,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "score": 55,
+          "link": "https://www.youtube.com/watch?v=0sb7fF0O3eA"
         },
         {
           "program_id": "L_CH4_P2",
-          "start": 272,
-          "end": 363,
+          "start": 220,
+          "end": 307,
           "genre": "news",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         },
         {
           "program_id": "L_CH4_P3",
-          "start": 363,
-          "end": 499,
+          "start": 307,
+          "end": 426,
           "genre": "news",
-          "score": 51,
-          "link": "https://www.youtube.com/watch?v=zi9knajcejY"
+          "score": 59,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         },
         {
           "program_id": "L_CH4_P4",
-          "start": 499,
-          "end": 636,
+          "start": 426,
+          "end": 581,
           "genre": "news",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=XtBdrvg6Rn0"
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         }
       ]
     },
@@ -311,42 +311,42 @@
         {
           "program_id": "L_CH5_P0",
           "start": 0,
-          "end": 144,
-          "genre": "news",
-          "score": 46,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "end": 41,
+          "genre": "talk",
+          "score": 56,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         },
         {
           "program_id": "L_CH5_P1",
-          "start": 144,
-          "end": 245,
-          "genre": "news",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=KK9eki0N8sQ"
+          "start": 41,
+          "end": 185,
+          "genre": "sports",
+          "score": 94,
+          "link": "https://www.youtube.com/watch?v=4WD8aFx6FG4"
         },
         {
           "program_id": "L_CH5_P2",
-          "start": 245,
-          "end": 368,
-          "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=9-hlu64ayls"
+          "start": 185,
+          "end": 305,
+          "genre": "sports",
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=Rg7D57DBm0c"
         },
         {
           "program_id": "L_CH5_P3",
-          "start": 368,
-          "end": 506,
-          "genre": "kids",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=_83kRe3-jes"
+          "start": 305,
+          "end": 439,
+          "genre": "news",
+          "score": 59,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         },
         {
           "program_id": "L_CH5_P4",
-          "start": 506,
-          "end": 579,
+          "start": 439,
+          "end": 502,
           "genre": "news",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         }
       ]
     },
@@ -357,42 +357,42 @@
         {
           "program_id": "L_CH6_P0",
           "start": 0,
-          "end": 146,
-          "genre": "news",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "end": 127,
+          "genre": "sports",
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=M7zZLfj85Dk"
         },
         {
           "program_id": "L_CH6_P1",
-          "start": 146,
-          "end": 210,
-          "genre": "music",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=a_z5sSeeZUs"
+          "start": 127,
+          "end": 255,
+          "genre": "news",
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=n4tMcYuepww"
         },
         {
           "program_id": "L_CH6_P2",
-          "start": 210,
-          "end": 311,
+          "start": 255,
+          "end": 372,
           "genre": "news",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=eEkJPewvkvI"
         },
         {
           "program_id": "L_CH6_P3",
-          "start": 311,
-          "end": 461,
+          "start": 372,
+          "end": 486,
           "genre": "news",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=0sb7fF0O3eA"
         },
         {
           "program_id": "L_CH6_P4",
-          "start": 461,
-          "end": 538,
-          "genre": "drama",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 486,
+          "end": 525,
+          "genre": "news",
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         }
       ]
     },
@@ -403,42 +403,42 @@
         {
           "program_id": "L_CH7_P0",
           "start": 0,
-          "end": 144,
-          "genre": "drama",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "end": 92,
+          "genre": "news",
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=0sb7fF0O3eA"
         },
         {
           "program_id": "L_CH7_P1",
-          "start": 144,
-          "end": 275,
-          "genre": "kids",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "start": 92,
+          "end": 126,
+          "genre": "news",
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH7_P2",
-          "start": 275,
-          "end": 343,
-          "genre": "drama",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "start": 126,
+          "end": 249,
+          "genre": "news",
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH7_P3",
-          "start": 343,
-          "end": 454,
-          "genre": "news",
-          "score": 54,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "start": 249,
+          "end": 371,
+          "genre": "kids",
+          "score": 55,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH7_P4",
-          "start": 454,
-          "end": 525,
+          "start": 371,
+          "end": 427,
           "genre": "news",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         }
       ]
     },
@@ -449,42 +449,42 @@
         {
           "program_id": "L_CH8_P0",
           "start": 0,
-          "end": 73,
+          "end": 159,
           "genre": "news",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "score": 61,
+          "link": "https://www.youtube.com/watch?v=n4tMcYuepww"
         },
         {
           "program_id": "L_CH8_P1",
-          "start": 73,
-          "end": 115,
+          "start": 159,
+          "end": 280,
           "genre": "news",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         },
         {
           "program_id": "L_CH8_P2",
-          "start": 115,
-          "end": 248,
-          "genre": "documentary",
+          "start": 280,
+          "end": 378,
+          "genre": "news",
           "score": 66,
-          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH8_P3",
-          "start": 248,
-          "end": 325,
+          "start": 378,
+          "end": 453,
           "genre": "news",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=u-kRTOK6rjU"
+          "score": 42,
+          "link": "https://www.youtube.com/watch?v=gz46MascGhg"
         },
         {
           "program_id": "L_CH8_P4",
-          "start": 325,
-          "end": 478,
-          "genre": "talk",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 453,
+          "end": 517,
+          "genre": "sports",
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         }
       ]
     },
@@ -495,42 +495,42 @@
         {
           "program_id": "L_CH9_P0",
           "start": 0,
-          "end": 91,
-          "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "end": 146,
+          "genre": "sports",
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=Rg7D57DBm0c"
         },
         {
           "program_id": "L_CH9_P1",
-          "start": 91,
-          "end": 186,
-          "genre": "music",
-          "score": 83,
-          "link": "https://www.youtube.com/watch?v=a_z5sSeeZUs"
+          "start": 146,
+          "end": 263,
+          "genre": "news",
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=GBz7I_YR_10"
         },
         {
           "program_id": "L_CH9_P2",
-          "start": 186,
-          "end": 296,
+          "start": 263,
+          "end": 412,
           "genre": "news",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         },
         {
           "program_id": "L_CH9_P3",
-          "start": 296,
-          "end": 438,
+          "start": 412,
+          "end": 548,
           "genre": "news",
-          "score": 55,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH9_P4",
-          "start": 438,
-          "end": 550,
+          "start": 548,
+          "end": 631,
           "genre": "news",
-          "score": 63,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         }
       ]
     },
@@ -541,42 +541,42 @@
         {
           "program_id": "L_CH10_P0",
           "start": 0,
-          "end": 128,
-          "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "end": 159,
+          "genre": "sports",
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH10_P1",
-          "start": 128,
-          "end": 272,
-          "genre": "kids",
-          "score": 74,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "start": 159,
+          "end": 299,
+          "genre": "news",
+          "score": 88,
+          "link": "https://www.youtube.com/watch?v=3GBZXHMcq7Y"
         },
         {
           "program_id": "L_CH10_P2",
-          "start": 272,
-          "end": 359,
-          "genre": "sports",
-          "score": 65,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "start": 299,
+          "end": 392,
+          "genre": "kids",
+          "score": 72,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         },
         {
           "program_id": "L_CH10_P3",
-          "start": 359,
-          "end": 434,
+          "start": 392,
+          "end": 538,
           "genre": "news",
-          "score": 80,
-          "link": "https://www.youtube.com/watch?v=CQ_CT3DZKUs"
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH10_P4",
-          "start": 434,
-          "end": 579,
-          "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=-v9g6KdtI_4"
+          "start": 538,
+          "end": 666,
+          "genre": "music",
+          "score": 81,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         }
       ]
     },
@@ -587,42 +587,42 @@
         {
           "program_id": "L_CH11_P0",
           "start": 0,
-          "end": 144,
-          "genre": "kids",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "end": 139,
+          "genre": "news",
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         },
         {
           "program_id": "L_CH11_P1",
-          "start": 144,
-          "end": 286,
+          "start": 139,
+          "end": 245,
           "genre": "news",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 68,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH11_P2",
-          "start": 286,
-          "end": 434,
-          "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "start": 245,
+          "end": 290,
+          "genre": "sports",
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         },
         {
           "program_id": "L_CH11_P3",
-          "start": 434,
-          "end": 566,
-          "genre": "drama",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "start": 290,
+          "end": 371,
+          "genre": "news",
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH11_P4",
-          "start": 566,
-          "end": 706,
+          "start": 371,
+          "end": 473,
           "genre": "news",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "score": 94,
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         }
       ]
     },
@@ -633,42 +633,42 @@
         {
           "program_id": "L_CH12_P0",
           "start": 0,
-          "end": 89,
-          "genre": "news",
-          "score": 48,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "end": 118,
+          "genre": "sports",
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH12_P1",
-          "start": 89,
-          "end": 151,
-          "genre": "drama",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "start": 118,
+          "end": 260,
+          "genre": "news",
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH12_P2",
-          "start": 151,
-          "end": 252,
-          "genre": "news",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "start": 260,
+          "end": 379,
+          "genre": "sports",
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH12_P3",
-          "start": 252,
-          "end": 331,
-          "genre": "drama",
-          "score": 79,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "start": 379,
+          "end": 530,
+          "genre": "sports",
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH12_P4",
-          "start": 331,
-          "end": 448,
-          "genre": "news",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "start": 530,
+          "end": 689,
+          "genre": "talk",
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         }
       ]
     },
@@ -679,42 +679,42 @@
         {
           "program_id": "L_CH13_P0",
           "start": 0,
-          "end": 79,
-          "genre": "drama",
-          "score": 70,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "end": 75,
+          "genre": "kids",
+          "score": 78,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH13_P1",
-          "start": 79,
-          "end": 207,
-          "genre": "drama",
-          "score": 70,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "start": 75,
+          "end": 196,
+          "genre": "news",
+          "score": 52,
+          "link": "https://www.youtube.com/watch?v=GBz7I_YR_10"
         },
         {
           "program_id": "L_CH13_P2",
-          "start": 207,
-          "end": 321,
-          "genre": "sports",
-          "score": 85,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "start": 196,
+          "end": 320,
+          "genre": "music",
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH13_P3",
-          "start": 321,
-          "end": 458,
+          "start": 320,
+          "end": 438,
           "genre": "news",
-          "score": 76,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 69,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         },
         {
           "program_id": "L_CH13_P4",
-          "start": 458,
-          "end": 572,
-          "genre": "documentary",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
+          "start": 438,
+          "end": 545,
+          "genre": "news",
+          "score": 62,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         }
       ]
     },
@@ -725,42 +725,42 @@
         {
           "program_id": "L_CH14_P0",
           "start": 0,
-          "end": 119,
-          "genre": "news",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "end": 148,
+          "genre": "sports",
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH14_P1",
-          "start": 119,
-          "end": 252,
-          "genre": "news",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "start": 148,
+          "end": 227,
+          "genre": "sports",
+          "score": 56,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH14_P2",
-          "start": 252,
-          "end": 389,
-          "genre": "kids",
-          "score": 71,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 227,
+          "end": 340,
+          "genre": "documentary",
+          "score": 40,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH14_P3",
-          "start": 389,
-          "end": 530,
-          "genre": "kids",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "start": 340,
+          "end": 464,
+          "genre": "news",
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH14_P4",
-          "start": 530,
-          "end": 673,
+          "start": 464,
+          "end": 608,
           "genre": "news",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=-v9g6KdtI_4"
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=ujg1TiziNQ8"
         }
       ]
     },
@@ -771,42 +771,42 @@
         {
           "program_id": "L_CH15_P0",
           "start": 0,
-          "end": 150,
-          "genre": "news",
-          "score": 90,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "end": 129,
+          "genre": "talk",
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         },
         {
           "program_id": "L_CH15_P1",
-          "start": 150,
-          "end": 291,
+          "start": 129,
+          "end": 230,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=KK9eki0N8sQ"
+          "score": 94,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH15_P2",
-          "start": 291,
-          "end": 394,
-          "genre": "news",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "start": 230,
+          "end": 365,
+          "genre": "sports",
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=4WD8aFx6FG4"
         },
         {
           "program_id": "L_CH15_P3",
-          "start": 394,
-          "end": 528,
+          "start": 365,
+          "end": 440,
           "genre": "news",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 69,
+          "link": "https://www.youtube.com/watch?v=UWzojHsVD50"
         },
         {
           "program_id": "L_CH15_P4",
-          "start": 528,
-          "end": 569,
+          "start": 440,
+          "end": 553,
           "genre": "news",
-          "score": 95,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "score": 55,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         }
       ]
     },
@@ -817,42 +817,42 @@
         {
           "program_id": "L_CH16_P0",
           "start": 0,
-          "end": 119,
-          "genre": "drama",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "end": 144,
+          "genre": "news",
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH16_P1",
-          "start": 119,
-          "end": 250,
+          "start": 144,
+          "end": 235,
           "genre": "news",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH16_P2",
-          "start": 250,
-          "end": 399,
-          "genre": "variety",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 235,
+          "end": 358,
+          "genre": "news",
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=n4tMcYuepww"
         },
         {
           "program_id": "L_CH16_P3",
-          "start": 399,
-          "end": 547,
+          "start": 358,
+          "end": 464,
           "genre": "news",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "score": 53,
+          "link": "https://www.youtube.com/watch?v=UWzojHsVD50"
         },
         {
           "program_id": "L_CH16_P4",
-          "start": 547,
-          "end": 621,
-          "genre": "news",
-          "score": 65,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "start": 464,
+          "end": 541,
+          "genre": "sports",
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=Rg7D57DBm0c"
         }
       ]
     },
@@ -863,42 +863,42 @@
         {
           "program_id": "L_CH17_P0",
           "start": 0,
-          "end": 129,
-          "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "end": 59,
+          "genre": "sports",
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=M7zZLfj85Dk"
         },
         {
           "program_id": "L_CH17_P1",
-          "start": 129,
-          "end": 259,
-          "genre": "sports",
-          "score": 70,
-          "link": "https://www.youtube.com/watch?v=C1U451zzwnA"
+          "start": 59,
+          "end": 115,
+          "genre": "news",
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         },
         {
           "program_id": "L_CH17_P2",
-          "start": 259,
-          "end": 300,
-          "genre": "sports",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "start": 115,
+          "end": 235,
+          "genre": "news",
+          "score": 80,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         },
         {
           "program_id": "L_CH17_P3",
-          "start": 300,
-          "end": 406,
+          "start": 235,
+          "end": 391,
           "genre": "news",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH17_P4",
-          "start": 406,
-          "end": 526,
+          "start": 391,
+          "end": 513,
           "genre": "news",
-          "score": 95,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         }
       ]
     },
@@ -909,42 +909,42 @@
         {
           "program_id": "L_CH18_P0",
           "start": 0,
-          "end": 85,
+          "end": 157,
           "genre": "news",
           "score": 55,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "link": "https://www.youtube.com/watch?v=UWzojHsVD50"
         },
         {
           "program_id": "L_CH18_P1",
-          "start": 85,
-          "end": 196,
-          "genre": "variety",
-          "score": 89,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 157,
+          "end": 292,
+          "genre": "news",
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH18_P2",
-          "start": 196,
-          "end": 307,
-          "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "start": 292,
+          "end": 364,
+          "genre": "sports",
+          "score": 93,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH18_P3",
-          "start": 307,
-          "end": 416,
-          "genre": "drama",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 364,
+          "end": 487,
+          "genre": "news",
+          "score": 52,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH18_P4",
-          "start": 416,
-          "end": 488,
+          "start": 487,
+          "end": 559,
           "genre": "news",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=DvEZvqlZXHI"
         }
       ]
     },
@@ -955,42 +955,42 @@
         {
           "program_id": "L_CH19_P0",
           "start": 0,
-          "end": 112,
+          "end": 111,
           "genre": "news",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         },
         {
           "program_id": "L_CH19_P1",
-          "start": 112,
-          "end": 259,
-          "genre": "news",
-          "score": 68,
-          "link": "https://www.youtube.com/watch?v=XtBdrvg6Rn0"
+          "start": 111,
+          "end": 182,
+          "genre": "sports",
+          "score": 74,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH19_P2",
-          "start": 259,
-          "end": 379,
-          "genre": "talk",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 182,
+          "end": 305,
+          "genre": "documentary",
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH19_P3",
-          "start": 379,
-          "end": 421,
-          "genre": "drama",
-          "score": 74,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "start": 305,
+          "end": 445,
+          "genre": "news",
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH19_P4",
-          "start": 421,
-          "end": 568,
-          "genre": "variety",
-          "score": 46,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 445,
+          "end": 559,
+          "genre": "news",
+          "score": 59,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         }
       ]
     },
@@ -1001,42 +1001,42 @@
         {
           "program_id": "L_CH20_P0",
           "start": 0,
-          "end": 57,
+          "end": 154,
           "genre": "news",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH20_P1",
-          "start": 57,
-          "end": 103,
-          "genre": "drama",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "start": 154,
+          "end": 310,
+          "genre": "news",
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=nNkZaDFCouo"
         },
         {
           "program_id": "L_CH20_P2",
-          "start": 103,
-          "end": 246,
+          "start": 310,
+          "end": 459,
           "genre": "news",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         },
         {
           "program_id": "L_CH20_P3",
-          "start": 246,
-          "end": 376,
-          "genre": "news",
-          "score": 85,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "start": 459,
+          "end": 545,
+          "genre": "sports",
+          "score": 99,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH20_P4",
-          "start": 376,
-          "end": 475,
+          "start": 545,
+          "end": 655,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=r1OHEgrR7ls"
         }
       ]
     },
@@ -1047,42 +1047,42 @@
         {
           "program_id": "L_CH21_P0",
           "start": 0,
-          "end": 129,
+          "end": 159,
           "genre": "news",
-          "score": 74,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 55,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         },
         {
           "program_id": "L_CH21_P1",
-          "start": 129,
-          "end": 269,
+          "start": 159,
+          "end": 307,
           "genre": "news",
-          "score": 63,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "score": 84,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         },
         {
           "program_id": "L_CH21_P2",
-          "start": 269,
-          "end": 361,
+          "start": 307,
+          "end": 455,
           "genre": "news",
-          "score": 95,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         },
         {
           "program_id": "L_CH21_P3",
-          "start": 361,
-          "end": 465,
-          "genre": "news",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "start": 455,
+          "end": 610,
+          "genre": "sports",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH21_P4",
-          "start": 465,
-          "end": 622,
+          "start": 610,
+          "end": 719,
           "genre": "news",
-          "score": 44,
-          "link": "https://www.youtube.com/watch?v=YQT-BZr5pp0"
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         }
       ]
     },
@@ -1093,42 +1093,42 @@
         {
           "program_id": "L_CH22_P0",
           "start": 0,
-          "end": 106,
-          "genre": "drama",
-          "score": 95,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "end": 105,
+          "genre": "kids",
+          "score": 42,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         },
         {
           "program_id": "L_CH22_P1",
-          "start": 106,
-          "end": 236,
-          "genre": "drama",
-          "score": 96,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "start": 105,
+          "end": 262,
+          "genre": "news",
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         },
         {
           "program_id": "L_CH22_P2",
-          "start": 236,
-          "end": 376,
+          "start": 262,
+          "end": 371,
           "genre": "news",
-          "score": 74,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=N6KKmsF4xtM"
         },
         {
           "program_id": "L_CH22_P3",
-          "start": 376,
-          "end": 504,
+          "start": 371,
+          "end": 436,
           "genre": "news",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         },
         {
           "program_id": "L_CH22_P4",
-          "start": 504,
-          "end": 629,
+          "start": 436,
+          "end": 593,
           "genre": "news",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=KK9eki0N8sQ"
+          "score": 56,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         }
       ]
     },
@@ -1139,42 +1139,42 @@
         {
           "program_id": "L_CH23_P0",
           "start": 0,
-          "end": 132,
-          "genre": "news",
-          "score": 91,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "end": 143,
+          "genre": "talk",
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         },
         {
           "program_id": "L_CH23_P1",
-          "start": 132,
-          "end": 259,
-          "genre": "kids",
-          "score": 79,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "start": 143,
+          "end": 301,
+          "genre": "documentary",
+          "score": 90,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH23_P2",
-          "start": 259,
-          "end": 414,
-          "genre": "kids",
-          "score": 50,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 301,
+          "end": 446,
+          "genre": "news",
+          "score": 84,
+          "link": "https://www.youtube.com/watch?v=VNyyVHwlxKU"
         },
         {
           "program_id": "L_CH23_P3",
-          "start": 414,
-          "end": 486,
-          "genre": "drama",
-          "score": 96,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 446,
+          "end": 562,
+          "genre": "news",
+          "score": 52,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         },
         {
           "program_id": "L_CH23_P4",
-          "start": 486,
-          "end": 600,
-          "genre": "sports",
-          "score": 47,
-          "link": "https://www.youtube.com/watch?v=HvHArStUirM"
+          "start": 562,
+          "end": 610,
+          "genre": "news",
+          "score": 64,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         }
       ]
     },
@@ -1185,42 +1185,42 @@
         {
           "program_id": "L_CH24_P0",
           "start": 0,
-          "end": 119,
+          "end": 93,
           "genre": "kids",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH24_P1",
-          "start": 119,
-          "end": 209,
+          "start": 93,
+          "end": 226,
           "genre": "news",
-          "score": 48,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "score": 95,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH24_P2",
-          "start": 209,
-          "end": 311,
-          "genre": "kids",
-          "score": 51,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 226,
+          "end": 341,
+          "genre": "news",
+          "score": 81,
+          "link": "https://www.youtube.com/watch?v=GBz7I_YR_10"
         },
         {
           "program_id": "L_CH24_P3",
-          "start": 311,
-          "end": 389,
-          "genre": "drama",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 341,
+          "end": 497,
+          "genre": "documentary",
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH24_P4",
-          "start": 389,
-          "end": 518,
+          "start": 497,
+          "end": 591,
           "genre": "news",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         }
       ]
     },
@@ -1231,42 +1231,42 @@
         {
           "program_id": "L_CH25_P0",
           "start": 0,
-          "end": 130,
+          "end": 125,
           "genre": "news",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "score": 93,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH25_P1",
-          "start": 130,
+          "start": 125,
           "end": 265,
           "genre": "news",
-          "score": 91,
-          "link": "https://www.youtube.com/watch?v=u-kRTOK6rjU"
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH25_P2",
           "start": 265,
-          "end": 418,
+          "end": 380,
           "genre": "news",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "score": 95,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         },
         {
           "program_id": "L_CH25_P3",
-          "start": 418,
-          "end": 461,
+          "start": 380,
+          "end": 446,
           "genre": "news",
-          "score": 76,
-          "link": "https://www.youtube.com/watch?v=ladv9U73Tk4"
+          "score": 66,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         },
         {
           "program_id": "L_CH25_P4",
-          "start": 461,
-          "end": 600,
-          "genre": "news",
-          "score": 46,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "start": 446,
+          "end": 594,
+          "genre": "sports",
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         }
       ]
     },
@@ -1277,42 +1277,42 @@
         {
           "program_id": "L_CH26_P0",
           "start": 0,
-          "end": 149,
+          "end": 139,
           "genre": "news",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=XtBdrvg6Rn0"
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         },
         {
           "program_id": "L_CH26_P1",
-          "start": 149,
-          "end": 203,
-          "genre": "drama",
-          "score": 78,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 139,
+          "end": 287,
+          "genre": "kids",
+          "score": 70,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH26_P2",
-          "start": 203,
-          "end": 330,
+          "start": 287,
+          "end": 343,
           "genre": "news",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 94,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH26_P3",
-          "start": 330,
-          "end": 479,
-          "genre": "documentary",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
+          "start": 343,
+          "end": 476,
+          "genre": "news",
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH26_P4",
-          "start": 479,
-          "end": 601,
+          "start": 476,
+          "end": 603,
           "genre": "news",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         }
       ]
     },
@@ -1323,42 +1323,42 @@
         {
           "program_id": "L_CH27_P0",
           "start": 0,
-          "end": 62,
-          "genre": "drama",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "end": 124,
+          "genre": "documentary",
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH27_P1",
-          "start": 62,
-          "end": 199,
-          "genre": "variety",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 124,
+          "end": 231,
+          "genre": "news",
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         },
         {
           "program_id": "L_CH27_P2",
-          "start": 199,
-          "end": 294,
+          "start": 231,
+          "end": 361,
           "genre": "news",
-          "score": 80,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 72,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         },
         {
           "program_id": "L_CH27_P3",
-          "start": 294,
-          "end": 447,
-          "genre": "sports",
-          "score": 68,
-          "link": "https://www.youtube.com/watch?v=w8VTNoHhY1c"
+          "start": 361,
+          "end": 499,
+          "genre": "news",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=UWzojHsVD50"
         },
         {
           "program_id": "L_CH27_P4",
-          "start": 447,
-          "end": 541,
+          "start": 499,
+          "end": 647,
           "genre": "news",
-          "score": 56,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "score": 79,
+          "link": "https://www.youtube.com/watch?v=rdy7xm-NEFE"
         }
       ]
     },
@@ -1369,42 +1369,42 @@
         {
           "program_id": "L_CH28_P0",
           "start": 0,
-          "end": 45,
+          "end": 116,
           "genre": "news",
-          "score": 77,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH28_P1",
-          "start": 45,
-          "end": 81,
-          "genre": "news",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "start": 116,
+          "end": 167,
+          "genre": "sports",
+          "score": 88,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH28_P2",
-          "start": 81,
-          "end": 196,
+          "start": 167,
+          "end": 313,
           "genre": "news",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "score": 58,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH28_P3",
-          "start": 196,
-          "end": 329,
-          "genre": "news",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "start": 313,
+          "end": 465,
+          "genre": "sports",
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=Rg7D57DBm0c"
         },
         {
           "program_id": "L_CH28_P4",
-          "start": 329,
-          "end": 398,
-          "genre": "kids",
-          "score": 90,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 465,
+          "end": 535,
+          "genre": "news",
+          "score": 52,
+          "link": "https://www.youtube.com/watch?v=3GBZXHMcq7Y"
         }
       ]
     },
@@ -1415,42 +1415,42 @@
         {
           "program_id": "L_CH29_P0",
           "start": 0,
-          "end": 131,
-          "genre": "kids",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "end": 63,
+          "genre": "news",
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         },
         {
           "program_id": "L_CH29_P1",
-          "start": 131,
-          "end": 260,
+          "start": 63,
+          "end": 105,
           "genre": "news",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         },
         {
           "program_id": "L_CH29_P2",
-          "start": 260,
-          "end": 377,
+          "start": 105,
+          "end": 257,
           "genre": "news",
-          "score": 56,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         },
         {
           "program_id": "L_CH29_P3",
-          "start": 377,
-          "end": 528,
-          "genre": "news",
-          "score": 90,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "start": 257,
+          "end": 337,
+          "genre": "sports",
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH29_P4",
-          "start": 528,
-          "end": 613,
-          "genre": "sports",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "start": 337,
+          "end": 482,
+          "genre": "news",
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         }
       ]
     },
@@ -1461,42 +1461,42 @@
         {
           "program_id": "L_CH30_P0",
           "start": 0,
-          "end": 143,
-          "genre": "talk",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "end": 125,
+          "genre": "sports",
+          "score": 88,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH30_P1",
-          "start": 143,
-          "end": 264,
-          "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "start": 125,
+          "end": 226,
+          "genre": "sports",
+          "score": 58,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH30_P2",
-          "start": 264,
-          "end": 414,
+          "start": 226,
+          "end": 365,
           "genre": "news",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=KK9eki0N8sQ"
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH30_P3",
-          "start": 414,
-          "end": 533,
-          "genre": "kids",
+          "start": 365,
+          "end": 456,
+          "genre": "news",
           "score": 53,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         },
         {
           "program_id": "L_CH30_P4",
-          "start": 533,
-          "end": 636,
-          "genre": "news",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "start": 456,
+          "end": 486,
+          "genre": "kids",
+          "score": 62,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         }
       ]
     },
@@ -1507,42 +1507,42 @@
         {
           "program_id": "L_CH31_P0",
           "start": 0,
-          "end": 139,
-          "genre": "news",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "end": 156,
+          "genre": "sports",
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH31_P1",
-          "start": 139,
-          "end": 186,
-          "genre": "drama",
-          "score": 50,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "start": 156,
+          "end": 272,
+          "genre": "documentary",
+          "score": 64,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH31_P2",
-          "start": 186,
-          "end": 256,
-          "genre": "talk",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 272,
+          "end": 414,
+          "genre": "news",
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=DvEZvqlZXHI"
         },
         {
           "program_id": "L_CH31_P3",
-          "start": 256,
-          "end": 401,
+          "start": 414,
+          "end": 571,
           "genre": "news",
           "score": 44,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "link": "https://www.youtube.com/watch?v=r1OHEgrR7ls"
         },
         {
           "program_id": "L_CH31_P4",
-          "start": 401,
-          "end": 476,
-          "genre": "sports",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=HvHArStUirM"
+          "start": 571,
+          "end": 642,
+          "genre": "news",
+          "score": 99,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         }
       ]
     },
@@ -1553,42 +1553,42 @@
         {
           "program_id": "L_CH32_P0",
           "start": 0,
-          "end": 83,
-          "genre": "sports",
-          "score": 89,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "end": 139,
+          "genre": "news",
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         },
         {
           "program_id": "L_CH32_P1",
-          "start": 83,
-          "end": 138,
+          "start": 139,
+          "end": 210,
           "genre": "news",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 93,
+          "link": "https://www.youtube.com/watch?v=VNyyVHwlxKU"
         },
         {
           "program_id": "L_CH32_P2",
-          "start": 138,
-          "end": 283,
+          "start": 210,
+          "end": 293,
           "genre": "news",
-          "score": 48,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 88,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         },
         {
           "program_id": "L_CH32_P3",
-          "start": 283,
-          "end": 417,
-          "genre": "talk",
-          "score": 51,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 293,
+          "end": 371,
+          "genre": "news",
+          "score": 91,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH32_P4",
-          "start": 417,
-          "end": 565,
-          "genre": "news",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "start": 371,
+          "end": 527,
+          "genre": "documentary",
+          "score": 69,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         }
       ]
     },
@@ -1599,42 +1599,42 @@
         {
           "program_id": "L_CH33_P0",
           "start": 0,
-          "end": 134,
+          "end": 130,
           "genre": "news",
-          "score": 50,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 90,
+          "link": "https://www.youtube.com/watch?v=IvqVBNkToO4"
         },
         {
           "program_id": "L_CH33_P1",
-          "start": 134,
-          "end": 234,
-          "genre": "drama",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "start": 130,
+          "end": 257,
+          "genre": "news",
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=N6KKmsF4xtM"
         },
         {
           "program_id": "L_CH33_P2",
-          "start": 234,
-          "end": 390,
-          "genre": "news",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "start": 257,
+          "end": 394,
+          "genre": "talk",
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         },
         {
           "program_id": "L_CH33_P3",
-          "start": 390,
-          "end": 542,
-          "genre": "news",
-          "score": 76,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "start": 394,
+          "end": 482,
+          "genre": "sports",
+          "score": 80,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH33_P4",
-          "start": 542,
-          "end": 602,
+          "start": 482,
+          "end": 618,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "score": 90,
+          "link": "https://www.youtube.com/watch?v=0sb7fF0O3eA"
         }
       ]
     },
@@ -1645,42 +1645,42 @@
         {
           "program_id": "L_CH34_P0",
           "start": 0,
-          "end": 156,
-          "genre": "drama",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "end": 73,
+          "genre": "news",
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH34_P1",
-          "start": 156,
-          "end": 263,
+          "start": 73,
+          "end": 156,
           "genre": "news",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH34_P2",
-          "start": 263,
-          "end": 352,
+          "start": 156,
+          "end": 256,
           "genre": "news",
-          "score": 80,
-          "link": "https://www.youtube.com/watch?v=-v9g6KdtI_4"
+          "score": 79,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         },
         {
           "program_id": "L_CH34_P3",
-          "start": 352,
-          "end": 491,
+          "start": 256,
+          "end": 312,
           "genre": "news",
-          "score": 51,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         },
         {
           "program_id": "L_CH34_P4",
-          "start": 491,
-          "end": 568,
-          "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "start": 312,
+          "end": 396,
+          "genre": "kids",
+          "score": 53,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         }
       ]
     },
@@ -1691,42 +1691,42 @@
         {
           "program_id": "L_CH35_P0",
           "start": 0,
-          "end": 147,
+          "end": 84,
           "genre": "news",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         },
         {
           "program_id": "L_CH35_P1",
-          "start": 147,
-          "end": 305,
+          "start": 84,
+          "end": 236,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "score": 42,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         },
         {
           "program_id": "L_CH35_P2",
-          "start": 305,
-          "end": 431,
-          "genre": "kids",
-          "score": 89,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 236,
+          "end": 339,
+          "genre": "sports",
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH35_P3",
-          "start": 431,
-          "end": 531,
-          "genre": "news",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=YQT-BZr5pp0"
+          "start": 339,
+          "end": 389,
+          "genre": "sports",
+          "score": 40,
+          "link": "https://www.youtube.com/watch?v=M7zZLfj85Dk"
         },
         {
           "program_id": "L_CH35_P4",
-          "start": 531,
-          "end": 619,
-          "genre": "news",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "start": 389,
+          "end": 433,
+          "genre": "sports",
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=M7zZLfj85Dk"
         }
       ]
     },
@@ -1737,42 +1737,42 @@
         {
           "program_id": "L_CH36_P0",
           "start": 0,
-          "end": 146,
-          "genre": "news",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "end": 77,
+          "genre": "documentary",
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH36_P1",
-          "start": 146,
-          "end": 275,
-          "genre": "news",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "start": 77,
+          "end": 212,
+          "genre": "sports",
+          "score": 78,
+          "link": "https://www.youtube.com/watch?v=4WD8aFx6FG4"
         },
         {
           "program_id": "L_CH36_P2",
-          "start": 275,
-          "end": 342,
+          "start": 212,
+          "end": 336,
           "genre": "news",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=VNyyVHwlxKU"
         },
         {
           "program_id": "L_CH36_P3",
-          "start": 342,
-          "end": 470,
+          "start": 336,
+          "end": 442,
           "genre": "sports",
-          "score": 65,
-          "link": "https://www.youtube.com/watch?v=w8VTNoHhY1c"
+          "score": 91,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH36_P4",
-          "start": 470,
-          "end": 597,
+          "start": 442,
+          "end": 591,
           "genre": "news",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 58,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         }
       ]
     },
@@ -1783,42 +1783,42 @@
         {
           "program_id": "L_CH37_P0",
           "start": 0,
-          "end": 30,
+          "end": 126,
           "genre": "news",
-          "score": 79,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=GBz7I_YR_10"
         },
         {
           "program_id": "L_CH37_P1",
-          "start": 30,
-          "end": 184,
+          "start": 126,
+          "end": 271,
           "genre": "news",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         },
         {
           "program_id": "L_CH37_P2",
-          "start": 184,
-          "end": 301,
+          "start": 271,
+          "end": 396,
           "genre": "news",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=rdy7xm-NEFE"
         },
         {
           "program_id": "L_CH37_P3",
-          "start": 301,
-          "end": 440,
+          "start": 396,
+          "end": 482,
           "genre": "news",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=GBz7I_YR_10"
         },
         {
           "program_id": "L_CH37_P4",
-          "start": 440,
-          "end": 497,
-          "genre": "music",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=a_z5sSeeZUs"
+          "start": 482,
+          "end": 632,
+          "genre": "news",
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=IvqVBNkToO4"
         }
       ]
     },
@@ -1829,42 +1829,42 @@
         {
           "program_id": "L_CH38_P0",
           "start": 0,
-          "end": 131,
+          "end": 155,
           "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=u-kRTOK6rjU"
+          "score": 94,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH38_P1",
-          "start": 131,
+          "start": 155,
           "end": 248,
           "genre": "news",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH38_P2",
           "start": 248,
-          "end": 324,
+          "end": 400,
           "genre": "news",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=DvEZvqlZXHI"
         },
         {
           "program_id": "L_CH38_P3",
-          "start": 324,
-          "end": 402,
+          "start": 400,
+          "end": 512,
           "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "score": 80,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         },
         {
           "program_id": "L_CH38_P4",
-          "start": 402,
-          "end": 452,
+          "start": 512,
+          "end": 656,
           "genre": "news",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         }
       ]
     },
@@ -1875,42 +1875,42 @@
         {
           "program_id": "L_CH39_P0",
           "start": 0,
-          "end": 74,
-          "genre": "variety",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "end": 63,
+          "genre": "news",
+          "score": 84,
+          "link": "https://www.youtube.com/watch?v=r1OHEgrR7ls"
         },
         {
           "program_id": "L_CH39_P1",
-          "start": 74,
-          "end": 211,
+          "start": 63,
+          "end": 205,
           "genre": "news",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH39_P2",
-          "start": 211,
-          "end": 309,
-          "genre": "news",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "start": 205,
+          "end": 324,
+          "genre": "sports",
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH39_P3",
-          "start": 309,
-          "end": 435,
-          "genre": "news",
-          "score": 90,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "start": 324,
+          "end": 433,
+          "genre": "sports",
+          "score": 94,
+          "link": "https://www.youtube.com/watch?v=4WD8aFx6FG4"
         },
         {
           "program_id": "L_CH39_P4",
-          "start": 435,
-          "end": 592,
-          "genre": "drama",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "start": 433,
+          "end": 514,
+          "genre": "news",
+          "score": 40,
+          "link": "https://www.youtube.com/watch?v=r1OHEgrR7ls"
         }
       ]
     },
@@ -1921,42 +1921,42 @@
         {
           "program_id": "L_CH40_P0",
           "start": 0,
-          "end": 49,
-          "genre": "drama",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "end": 151,
+          "genre": "news",
+          "score": 70,
+          "link": "https://www.youtube.com/watch?v=gz46MascGhg"
         },
         {
           "program_id": "L_CH40_P1",
-          "start": 49,
-          "end": 199,
-          "genre": "variety",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 151,
+          "end": 301,
+          "genre": "news",
+          "score": 55,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         },
         {
           "program_id": "L_CH40_P2",
-          "start": 199,
-          "end": 325,
-          "genre": "news",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "start": 301,
+          "end": 382,
+          "genre": "kids",
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH40_P3",
-          "start": 325,
-          "end": 478,
+          "start": 382,
+          "end": 534,
           "genre": "news",
-          "score": 63,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 62,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH40_P4",
-          "start": 478,
-          "end": 569,
-          "genre": "drama",
-          "score": 55,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "start": 534,
+          "end": 691,
+          "genre": "news",
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=N6KKmsF4xtM"
         }
       ]
     },
@@ -1967,42 +1967,42 @@
         {
           "program_id": "L_CH41_P0",
           "start": 0,
-          "end": 85,
+          "end": 87,
           "genre": "news",
-          "score": 56,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "score": 90,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         },
         {
           "program_id": "L_CH41_P1",
-          "start": 85,
-          "end": 231,
+          "start": 87,
+          "end": 243,
           "genre": "news",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "score": 62,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH41_P2",
-          "start": 231,
-          "end": 327,
+          "start": 243,
+          "end": 384,
           "genre": "news",
-          "score": 60,
-          "link": "https://www.youtube.com/watch?v=9-hlu64ayls"
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH41_P3",
-          "start": 327,
-          "end": 372,
+          "start": 384,
+          "end": 514,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 96,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         },
         {
           "program_id": "L_CH41_P4",
-          "start": 372,
-          "end": 447,
+          "start": 514,
+          "end": 645,
           "genre": "news",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "score": 94,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         }
       ]
     },
@@ -2013,42 +2013,42 @@
         {
           "program_id": "L_CH42_P0",
           "start": 0,
-          "end": 140,
+          "end": 79,
           "genre": "news",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "score": 53,
+          "link": "https://www.youtube.com/watch?v=ujg1TiziNQ8"
         },
         {
           "program_id": "L_CH42_P1",
-          "start": 140,
-          "end": 275,
+          "start": 79,
+          "end": 224,
           "genre": "news",
-          "score": 71,
-          "link": "https://www.youtube.com/watch?v=ar4XZrDIdxc"
+          "score": 40,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH42_P2",
-          "start": 275,
-          "end": 359,
+          "start": 224,
+          "end": 312,
           "genre": "news",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH42_P3",
-          "start": 359,
-          "end": 455,
+          "start": 312,
+          "end": 425,
           "genre": "news",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 80,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH42_P4",
-          "start": 455,
-          "end": 595,
+          "start": 425,
+          "end": 496,
           "genre": "news",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=896Jw7zsEZg"
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         }
       ]
     },
@@ -2059,42 +2059,42 @@
         {
           "program_id": "L_CH43_P0",
           "start": 0,
-          "end": 48,
-          "genre": "news",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "end": 138,
+          "genre": "music",
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH43_P1",
-          "start": 48,
+          "start": 138,
           "end": 202,
           "genre": "sports",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "score": 57,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         },
         {
           "program_id": "L_CH43_P2",
           "start": 202,
-          "end": 336,
-          "genre": "talk",
-          "score": 96,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "end": 308,
+          "genre": "sports",
+          "score": 59,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         },
         {
           "program_id": "L_CH43_P3",
-          "start": 336,
-          "end": 380,
-          "genre": "news",
-          "score": 90,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "start": 308,
+          "end": 431,
+          "genre": "sports",
+          "score": 64,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH43_P4",
-          "start": 380,
-          "end": 444,
-          "genre": "news",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
+          "start": 431,
+          "end": 518,
+          "genre": "sports",
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         }
       ]
     },
@@ -2105,42 +2105,42 @@
         {
           "program_id": "L_CH44_P0",
           "start": 0,
-          "end": 105,
-          "genre": "news",
-          "score": 90,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "end": 26,
+          "genre": "kids",
+          "score": 74,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         },
         {
           "program_id": "L_CH44_P1",
-          "start": 105,
-          "end": 158,
+          "start": 26,
+          "end": 106,
           "genre": "news",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH44_P2",
-          "start": 158,
-          "end": 309,
-          "genre": "kids",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 106,
+          "end": 242,
+          "genre": "news",
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH44_P3",
-          "start": 309,
-          "end": 453,
-          "genre": "sports",
-          "score": 48,
-          "link": "https://www.youtube.com/watch?v=HvHArStUirM"
+          "start": 242,
+          "end": 396,
+          "genre": "news",
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=N6KKmsF4xtM"
         },
         {
           "program_id": "L_CH44_P4",
-          "start": 453,
-          "end": 543,
-          "genre": "news",
-          "score": 65,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "start": 396,
+          "end": 536,
+          "genre": "sports",
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         }
       ]
     },
@@ -2151,42 +2151,42 @@
         {
           "program_id": "L_CH45_P0",
           "start": 0,
-          "end": 118,
+          "end": 71,
           "genre": "news",
-          "score": 54,
-          "link": "https://www.youtube.com/watch?v=ar4XZrDIdxc"
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH45_P1",
-          "start": 118,
-          "end": 184,
+          "start": 71,
+          "end": 175,
           "genre": "news",
-          "score": 91,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 99,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH45_P2",
-          "start": 184,
-          "end": 283,
-          "genre": "sports",
-          "score": 83,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "start": 175,
+          "end": 320,
+          "genre": "music",
+          "score": 88,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH45_P3",
-          "start": 283,
-          "end": 379,
+          "start": 320,
+          "end": 459,
           "genre": "news",
-          "score": 62,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH45_P4",
-          "start": 379,
-          "end": 431,
+          "start": 459,
+          "end": 598,
           "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=fEfGW6ufpi4"
         }
       ]
     },
@@ -2197,42 +2197,42 @@
         {
           "program_id": "L_CH46_P0",
           "start": 0,
-          "end": 62,
+          "end": 96,
           "genre": "news",
-          "score": 57,
-          "link": "https://www.youtube.com/watch?v=u-kRTOK6rjU"
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH46_P1",
-          "start": 62,
-          "end": 216,
+          "start": 96,
+          "end": 175,
           "genre": "news",
-          "score": 56,
-          "link": "https://www.youtube.com/watch?v=ladv9U73Tk4"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=DGhCHi91WUE"
         },
         {
           "program_id": "L_CH46_P2",
-          "start": 216,
-          "end": 286,
+          "start": 175,
+          "end": 278,
           "genre": "news",
-          "score": 56,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=fEfGW6ufpi4"
         },
         {
           "program_id": "L_CH46_P3",
-          "start": 286,
-          "end": 411,
+          "start": 278,
+          "end": 415,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=YQT-BZr5pp0"
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=N6KKmsF4xtM"
         },
         {
           "program_id": "L_CH46_P4",
-          "start": 411,
-          "end": 530,
-          "genre": "drama",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 415,
+          "end": 516,
+          "genre": "news",
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=nNkZaDFCouo"
         }
       ]
     },
@@ -2243,42 +2243,42 @@
         {
           "program_id": "L_CH47_P0",
           "start": 0,
-          "end": 110,
-          "genre": "news",
-          "score": 76,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "end": 46,
+          "genre": "kids",
+          "score": 66,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         },
         {
           "program_id": "L_CH47_P1",
-          "start": 110,
-          "end": 260,
-          "genre": "sports",
-          "score": 60,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "start": 46,
+          "end": 184,
+          "genre": "news",
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH47_P2",
-          "start": 260,
-          "end": 395,
+          "start": 184,
+          "end": 319,
           "genre": "news",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 95,
+          "link": "https://www.youtube.com/watch?v=UWzojHsVD50"
         },
         {
           "program_id": "L_CH47_P3",
-          "start": 395,
-          "end": 470,
+          "start": 319,
+          "end": 477,
           "genre": "news",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "score": 64,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH47_P4",
-          "start": 470,
-          "end": 589,
+          "start": 477,
+          "end": 505,
           "genre": "news",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=rdy7xm-NEFE"
         }
       ]
     },
@@ -2289,42 +2289,42 @@
         {
           "program_id": "L_CH48_P0",
           "start": 0,
-          "end": 115,
+          "end": 133,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH48_P1",
-          "start": 115,
-          "end": 247,
-          "genre": "kids",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "start": 133,
+          "end": 227,
+          "genre": "news",
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=DGhCHi91WUE"
         },
         {
           "program_id": "L_CH48_P2",
-          "start": 247,
-          "end": 387,
+          "start": 227,
+          "end": 327,
           "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         },
         {
           "program_id": "L_CH48_P3",
-          "start": 387,
-          "end": 524,
+          "start": 327,
+          "end": 472,
           "genre": "news",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 95,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH48_P4",
-          "start": 524,
-          "end": 654,
+          "start": 472,
+          "end": 533,
           "genre": "news",
-          "score": 50,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=fEfGW6ufpi4"
         }
       ]
     },
@@ -2335,42 +2335,42 @@
         {
           "program_id": "L_CH49_P0",
           "start": 0,
-          "end": 148,
-          "genre": "drama",
-          "score": 54,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "end": 58,
+          "genre": "news",
+          "score": 74,
+          "link": "https://www.youtube.com/watch?v=IvqVBNkToO4"
         },
         {
           "program_id": "L_CH49_P1",
-          "start": 148,
-          "end": 300,
-          "genre": "drama",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 58,
+          "end": 88,
+          "genre": "news",
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH49_P2",
-          "start": 300,
-          "end": 368,
-          "genre": "music",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=a_z5sSeeZUs"
+          "start": 88,
+          "end": 178,
+          "genre": "news",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         },
         {
           "program_id": "L_CH49_P3",
-          "start": 368,
-          "end": 502,
+          "start": 178,
+          "end": 324,
           "genre": "news",
-          "score": 96,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 72,
+          "link": "https://www.youtube.com/watch?v=nNkZaDFCouo"
         },
         {
           "program_id": "L_CH49_P4",
-          "start": 502,
-          "end": 558,
-          "genre": "kids",
-          "score": 77,
-          "link": "https://www.youtube.com/watch?v=djs8NySYZ9I"
+          "start": 324,
+          "end": 473,
+          "genre": "talk",
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         }
       ]
     },
@@ -2381,42 +2381,42 @@
         {
           "program_id": "L_CH50_P0",
           "start": 0,
-          "end": 138,
+          "end": 71,
           "genre": "news",
-          "score": 70,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=3GBZXHMcq7Y"
         },
         {
           "program_id": "L_CH50_P1",
-          "start": 138,
-          "end": 228,
-          "genre": "sports",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=w8VTNoHhY1c"
+          "start": 71,
+          "end": 187,
+          "genre": "music",
+          "score": 99,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH50_P2",
-          "start": 228,
-          "end": 375,
-          "genre": "kids",
-          "score": 79,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 187,
+          "end": 322,
+          "genre": "news",
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH50_P3",
-          "start": 375,
-          "end": 513,
-          "genre": "kids",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 322,
+          "end": 379,
+          "genre": "news",
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         },
         {
           "program_id": "L_CH50_P4",
-          "start": 513,
-          "end": 663,
-          "genre": "news",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
+          "start": 379,
+          "end": 474,
+          "genre": "kids",
+          "score": 84,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         }
       ]
     },
@@ -2427,42 +2427,42 @@
         {
           "program_id": "L_CH51_P0",
           "start": 0,
-          "end": 64,
+          "end": 99,
           "genre": "news",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=XtBdrvg6Rn0"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH51_P1",
-          "start": 64,
-          "end": 218,
+          "start": 99,
+          "end": 258,
           "genre": "news",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH51_P2",
-          "start": 218,
-          "end": 352,
-          "genre": "music",
-          "score": 65,
-          "link": "https://www.youtube.com/watch?v=a_z5sSeeZUs"
+          "start": 258,
+          "end": 367,
+          "genre": "news",
+          "score": 95,
+          "link": "https://www.youtube.com/watch?v=gz46MascGhg"
         },
         {
           "program_id": "L_CH51_P3",
-          "start": 352,
-          "end": 507,
-          "genre": "variety",
-          "score": 76,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 367,
+          "end": 522,
+          "genre": "news",
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         },
         {
           "program_id": "L_CH51_P4",
-          "start": 507,
-          "end": 631,
-          "genre": "kids",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=_83kRe3-jes"
+          "start": 522,
+          "end": 625,
+          "genre": "news",
+          "score": 42,
+          "link": "https://www.youtube.com/watch?v=rdy7xm-NEFE"
         }
       ]
     },
@@ -2473,42 +2473,42 @@
         {
           "program_id": "L_CH52_P0",
           "start": 0,
-          "end": 43,
-          "genre": "drama",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "end": 118,
+          "genre": "news",
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         },
         {
           "program_id": "L_CH52_P1",
-          "start": 43,
-          "end": 176,
-          "genre": "sports",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=HvHArStUirM"
+          "start": 118,
+          "end": 266,
+          "genre": "news",
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=N6KKmsF4xtM"
         },
         {
           "program_id": "L_CH52_P2",
-          "start": 176,
-          "end": 274,
+          "start": 266,
+          "end": 388,
           "genre": "news",
-          "score": 76,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 72,
+          "link": "https://www.youtube.com/watch?v=3GBZXHMcq7Y"
         },
         {
           "program_id": "L_CH52_P3",
-          "start": 274,
-          "end": 421,
+          "start": 388,
+          "end": 467,
           "genre": "news",
-          "score": 60,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 79,
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         },
         {
           "program_id": "L_CH52_P4",
-          "start": 421,
-          "end": 541,
+          "start": 467,
+          "end": 591,
           "genre": "news",
-          "score": 47,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         }
       ]
     },
@@ -2519,42 +2519,42 @@
         {
           "program_id": "L_CH53_P0",
           "start": 0,
-          "end": 129,
+          "end": 57,
           "genre": "news",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "score": 70,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         },
         {
           "program_id": "L_CH53_P1",
-          "start": 129,
-          "end": 283,
+          "start": 57,
+          "end": 178,
           "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=UWzojHsVD50"
         },
         {
           "program_id": "L_CH53_P2",
-          "start": 283,
-          "end": 439,
+          "start": 178,
+          "end": 334,
           "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH53_P3",
-          "start": 439,
-          "end": 546,
-          "genre": "drama",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "start": 334,
+          "end": 454,
+          "genre": "news",
+          "score": 59,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         },
         {
           "program_id": "L_CH53_P4",
-          "start": 546,
-          "end": 702,
-          "genre": "news",
+          "start": 454,
+          "end": 557,
+          "genre": "sports",
           "score": 76,
-          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         }
       ]
     },
@@ -2565,42 +2565,42 @@
         {
           "program_id": "L_CH54_P0",
           "start": 0,
-          "end": 115,
-          "genre": "drama",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "end": 72,
+          "genre": "news",
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH54_P1",
-          "start": 115,
-          "end": 179,
-          "genre": "drama",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 72,
+          "end": 157,
+          "genre": "talk",
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         },
         {
           "program_id": "L_CH54_P2",
-          "start": 179,
-          "end": 277,
-          "genre": "drama",
-          "score": 78,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 157,
+          "end": 289,
+          "genre": "news",
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=DvEZvqlZXHI"
         },
         {
           "program_id": "L_CH54_P3",
-          "start": 277,
-          "end": 360,
+          "start": 289,
+          "end": 404,
           "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         },
         {
           "program_id": "L_CH54_P4",
-          "start": 360,
-          "end": 506,
+          "start": 404,
+          "end": 535,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         }
       ]
     },
@@ -2611,42 +2611,42 @@
         {
           "program_id": "L_CH55_P0",
           "start": 0,
-          "end": 149,
-          "genre": "kids",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=_83kRe3-jes"
+          "end": 154,
+          "genre": "news",
+          "score": 80,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH55_P1",
-          "start": 149,
-          "end": 294,
+          "start": 154,
+          "end": 249,
           "genre": "news",
-          "score": 89,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 66,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH55_P2",
-          "start": 294,
-          "end": 440,
+          "start": 249,
+          "end": 403,
           "genre": "news",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=YQT-BZr5pp0"
+          "score": 85,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         },
         {
           "program_id": "L_CH55_P3",
-          "start": 440,
-          "end": 496,
+          "start": 403,
+          "end": 558,
           "genre": "sports",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=w8VTNoHhY1c"
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH55_P4",
-          "start": 496,
-          "end": 558,
-          "genre": "news",
-          "score": 47,
-          "link": "https://www.youtube.com/watch?v=u-kRTOK6rjU"
+          "start": 558,
+          "end": 678,
+          "genre": "sports",
+          "score": 66,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         }
       ]
     },
@@ -2657,42 +2657,42 @@
         {
           "program_id": "L_CH56_P0",
           "start": 0,
-          "end": 124,
+          "end": 91,
           "genre": "news",
-          "score": 91,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 40,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         },
         {
           "program_id": "L_CH56_P1",
-          "start": 124,
-          "end": 276,
-          "genre": "news",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=ladv9U73Tk4"
+          "start": 91,
+          "end": 212,
+          "genre": "kids",
+          "score": 93,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         },
         {
           "program_id": "L_CH56_P2",
-          "start": 276,
-          "end": 382,
-          "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "start": 212,
+          "end": 294,
+          "genre": "documentary",
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH56_P3",
-          "start": 382,
-          "end": 487,
+          "start": 294,
+          "end": 448,
           "genre": "news",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH56_P4",
-          "start": 487,
-          "end": 644,
+          "start": 448,
+          "end": 600,
           "genre": "news",
-          "score": 51,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=DGhCHi91WUE"
         }
       ]
     },
@@ -2703,42 +2703,42 @@
         {
           "program_id": "L_CH57_P0",
           "start": 0,
-          "end": 52,
-          "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "end": 150,
+          "genre": "sports",
+          "score": 53,
+          "link": "https://www.youtube.com/watch?v=4WD8aFx6FG4"
         },
         {
           "program_id": "L_CH57_P1",
-          "start": 52,
-          "end": 137,
-          "genre": "news",
-          "score": 77,
-          "link": "https://www.youtube.com/watch?v=ar4XZrDIdxc"
+          "start": 150,
+          "end": 293,
+          "genre": "sports",
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH57_P2",
-          "start": 137,
-          "end": 273,
+          "start": 293,
+          "end": 399,
           "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH57_P3",
-          "start": 273,
-          "end": 430,
-          "genre": "sports",
-          "score": 96,
-          "link": "https://www.youtube.com/watch?v=w8VTNoHhY1c"
+          "start": 399,
+          "end": 505,
+          "genre": "news",
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH57_P4",
-          "start": 430,
-          "end": 580,
+          "start": 505,
+          "end": 659,
           "genre": "news",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=zi9knajcejY"
+          "score": 95,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         }
       ]
     },
@@ -2749,42 +2749,42 @@
         {
           "program_id": "L_CH58_P0",
           "start": 0,
-          "end": 139,
+          "end": 125,
           "genre": "news",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "score": 74,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH58_P1",
-          "start": 139,
-          "end": 258,
+          "start": 125,
+          "end": 225,
           "genre": "news",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH58_P2",
-          "start": 258,
-          "end": 362,
-          "genre": "drama",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 225,
+          "end": 315,
+          "genre": "news",
+          "score": 55,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         },
         {
           "program_id": "L_CH58_P3",
-          "start": 362,
-          "end": 501,
+          "start": 315,
+          "end": 467,
           "genre": "news",
-          "score": 85,
-          "link": "https://www.youtube.com/watch?v=9-hlu64ayls"
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH58_P4",
-          "start": 501,
-          "end": 654,
-          "genre": "news",
+          "start": 467,
+          "end": 579,
+          "genre": "sports",
           "score": 76,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         }
       ]
     },
@@ -2795,42 +2795,42 @@
         {
           "program_id": "L_CH59_P0",
           "start": 0,
-          "end": 54,
+          "end": 143,
           "genre": "news",
-          "score": 47,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH59_P1",
-          "start": 54,
-          "end": 210,
-          "genre": "sports",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=w8VTNoHhY1c"
+          "start": 143,
+          "end": 270,
+          "genre": "news",
+          "score": 84,
+          "link": "https://www.youtube.com/watch?v=VNyyVHwlxKU"
         },
         {
           "program_id": "L_CH59_P2",
-          "start": 210,
-          "end": 278,
+          "start": 270,
+          "end": 408,
           "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=ujg1TiziNQ8"
         },
         {
           "program_id": "L_CH59_P3",
-          "start": 278,
-          "end": 330,
-          "genre": "news",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "start": 408,
+          "end": 448,
+          "genre": "sports",
+          "score": 40,
+          "link": "https://www.youtube.com/watch?v=M7zZLfj85Dk"
         },
         {
           "program_id": "L_CH59_P4",
-          "start": 330,
-          "end": 471,
-          "genre": "news",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "start": 448,
+          "end": 536,
+          "genre": "sports",
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=4WD8aFx6FG4"
         }
       ]
     },
@@ -2841,42 +2841,42 @@
         {
           "program_id": "L_CH60_P0",
           "start": 0,
-          "end": 124,
+          "end": 123,
           "genre": "news",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH60_P1",
-          "start": 124,
-          "end": 230,
-          "genre": "news",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "start": 123,
+          "end": 177,
+          "genre": "sports",
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH60_P2",
-          "start": 230,
-          "end": 367,
+          "start": 177,
+          "end": 290,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH60_P3",
-          "start": 367,
-          "end": 480,
-          "genre": "news",
-          "score": 63,
-          "link": "https://www.youtube.com/watch?v=u-kRTOK6rjU"
+          "start": 290,
+          "end": 405,
+          "genre": "documentary",
+          "score": 74,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH60_P4",
-          "start": 480,
-          "end": 631,
-          "genre": "news",
-          "score": 71,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "start": 405,
+          "end": 464,
+          "genre": "documentary",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         }
       ]
     },
@@ -2887,42 +2887,42 @@
         {
           "program_id": "L_CH61_P0",
           "start": 0,
-          "end": 65,
-          "genre": "kids",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "end": 159,
+          "genre": "news",
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=rdy7xm-NEFE"
         },
         {
           "program_id": "L_CH61_P1",
-          "start": 65,
-          "end": 131,
-          "genre": "sports",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=w8VTNoHhY1c"
+          "start": 159,
+          "end": 317,
+          "genre": "news",
+          "score": 59,
+          "link": "https://www.youtube.com/watch?v=r1OHEgrR7ls"
         },
         {
           "program_id": "L_CH61_P2",
-          "start": 131,
-          "end": 250,
+          "start": 317,
+          "end": 378,
           "genre": "news",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=-v9g6KdtI_4"
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=nNkZaDFCouo"
         },
         {
           "program_id": "L_CH61_P3",
-          "start": 250,
-          "end": 408,
-          "genre": "news",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "start": 378,
+          "end": 525,
+          "genre": "music",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH61_P4",
-          "start": 408,
-          "end": 554,
-          "genre": "sports",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=C1U451zzwnA"
+          "start": 525,
+          "end": 602,
+          "genre": "news",
+          "score": 85,
+          "link": "https://www.youtube.com/watch?v=eEkJPewvkvI"
         }
       ]
     },
@@ -2933,42 +2933,42 @@
         {
           "program_id": "L_CH62_P0",
           "start": 0,
-          "end": 116,
+          "end": 80,
           "genre": "news",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH62_P1",
-          "start": 116,
-          "end": 266,
-          "genre": "sports",
-          "score": 44,
-          "link": "https://www.youtube.com/watch?v=HvHArStUirM"
+          "start": 80,
+          "end": 164,
+          "genre": "kids",
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         },
         {
           "program_id": "L_CH62_P2",
-          "start": 266,
-          "end": 396,
-          "genre": "drama",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 164,
+          "end": 230,
+          "genre": "news",
+          "score": 85,
+          "link": "https://www.youtube.com/watch?v=DGhCHi91WUE"
         },
         {
           "program_id": "L_CH62_P3",
-          "start": 396,
-          "end": 484,
+          "start": 230,
+          "end": 352,
           "genre": "news",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=M28Nc9km14E"
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=ujg1TiziNQ8"
         },
         {
           "program_id": "L_CH62_P4",
-          "start": 484,
-          "end": 614,
-          "genre": "news",
+          "start": 352,
+          "end": 415,
+          "genre": "music",
           "score": 73,
-          "link": "https://www.youtube.com/watch?v=XtBdrvg6Rn0"
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         }
       ]
     },
@@ -2979,42 +2979,42 @@
         {
           "program_id": "L_CH63_P0",
           "start": 0,
-          "end": 152,
+          "end": 143,
           "genre": "news",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "score": 85,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         },
         {
           "program_id": "L_CH63_P1",
-          "start": 152,
-          "end": 304,
+          "start": 143,
+          "end": 223,
           "genre": "news",
-          "score": 83,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 57,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         },
         {
           "program_id": "L_CH63_P2",
-          "start": 304,
-          "end": 453,
-          "genre": "drama",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 223,
+          "end": 264,
+          "genre": "news",
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=rdy7xm-NEFE"
         },
         {
           "program_id": "L_CH63_P3",
-          "start": 453,
-          "end": 602,
+          "start": 264,
+          "end": 376,
           "genre": "news",
-          "score": 62,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH63_P4",
-          "start": 602,
-          "end": 742,
+          "start": 376,
+          "end": 480,
           "genre": "news",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=XtBdrvg6Rn0"
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         }
       ]
     },
@@ -3025,42 +3025,42 @@
         {
           "program_id": "L_CH64_P0",
           "start": 0,
-          "end": 42,
+          "end": 117,
           "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 84,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH64_P1",
-          "start": 42,
-          "end": 178,
+          "start": 117,
+          "end": 238,
           "genre": "news",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 85,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH64_P2",
-          "start": 178,
-          "end": 253,
-          "genre": "news",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "start": 238,
+          "end": 361,
+          "genre": "documentary",
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH64_P3",
-          "start": 253,
-          "end": 330,
+          "start": 361,
+          "end": 469,
           "genre": "news",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=9-hlu64ayls"
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         },
         {
           "program_id": "L_CH64_P4",
-          "start": 330,
-          "end": 474,
+          "start": 469,
+          "end": 604,
           "genre": "news",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=KK9eki0N8sQ"
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         }
       ]
     },
@@ -3071,42 +3071,42 @@
         {
           "program_id": "L_CH65_P0",
           "start": 0,
-          "end": 123,
+          "end": 88,
           "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 80,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH65_P1",
-          "start": 123,
-          "end": 235,
-          "genre": "talk",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 88,
+          "end": 198,
+          "genre": "news",
+          "score": 44,
+          "link": "https://www.youtube.com/watch?v=DvEZvqlZXHI"
         },
         {
           "program_id": "L_CH65_P2",
-          "start": 235,
-          "end": 359,
-          "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "start": 198,
+          "end": 272,
+          "genre": "sports",
+          "score": 44,
+          "link": "https://www.youtube.com/watch?v=Rg7D57DBm0c"
         },
         {
           "program_id": "L_CH65_P3",
-          "start": 359,
-          "end": 496,
+          "start": 272,
+          "end": 401,
           "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH65_P4",
-          "start": 496,
-          "end": 638,
-          "genre": "news",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "start": 401,
+          "end": 514,
+          "genre": "kids",
+          "score": 79,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         }
       ]
     },
@@ -3117,42 +3117,42 @@
         {
           "program_id": "L_CH66_P0",
           "start": 0,
-          "end": 129,
+          "end": 142,
           "genre": "news",
-          "score": 57,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=VNyyVHwlxKU"
         },
         {
           "program_id": "L_CH66_P1",
-          "start": 129,
-          "end": 230,
+          "start": 142,
+          "end": 274,
           "genre": "news",
-          "score": 46,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "score": 81,
+          "link": "https://www.youtube.com/watch?v=ujg1TiziNQ8"
         },
         {
           "program_id": "L_CH66_P2",
-          "start": 230,
-          "end": 361,
+          "start": 274,
+          "end": 417,
           "genre": "news",
           "score": 60,
-          "link": "https://www.youtube.com/watch?v=KK9eki0N8sQ"
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH66_P3",
-          "start": 361,
-          "end": 456,
+          "start": 417,
+          "end": 545,
           "genre": "news",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 64,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH66_P4",
-          "start": 456,
-          "end": 553,
+          "start": 545,
+          "end": 665,
           "genre": "news",
-          "score": 68,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         }
       ]
     },
@@ -3163,42 +3163,42 @@
         {
           "program_id": "L_CH67_P0",
           "start": 0,
-          "end": 114,
-          "genre": "news",
-          "score": 83,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "end": 54,
+          "genre": "sports",
+          "score": 56,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH67_P1",
-          "start": 114,
-          "end": 252,
-          "genre": "news",
-          "score": 80,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "start": 54,
+          "end": 154,
+          "genre": "sports",
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         },
         {
           "program_id": "L_CH67_P2",
-          "start": 252,
-          "end": 365,
-          "genre": "talk",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 154,
+          "end": 307,
+          "genre": "sports",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH67_P3",
-          "start": 365,
-          "end": 483,
-          "genre": "news",
-          "score": 57,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "start": 307,
+          "end": 359,
+          "genre": "sports",
+          "score": 61,
+          "link": "https://www.youtube.com/watch?v=4WD8aFx6FG4"
         },
         {
           "program_id": "L_CH67_P4",
-          "start": 483,
-          "end": 605,
+          "start": 359,
+          "end": 434,
           "genre": "news",
-          "score": 63,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 72,
+          "link": "https://www.youtube.com/watch?v=3GBZXHMcq7Y"
         }
       ]
     },
@@ -3209,42 +3209,42 @@
         {
           "program_id": "L_CH68_P0",
           "start": 0,
-          "end": 149,
+          "end": 157,
           "genre": "news",
-          "score": 90,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         },
         {
           "program_id": "L_CH68_P1",
-          "start": 149,
-          "end": 278,
-          "genre": "news",
-          "score": 89,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "start": 157,
+          "end": 281,
+          "genre": "sports",
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH68_P2",
-          "start": 278,
-          "end": 354,
-          "genre": "documentary",
-          "score": 91,
-          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
+          "start": 281,
+          "end": 349,
+          "genre": "news",
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=r1OHEgrR7ls"
         },
         {
           "program_id": "L_CH68_P3",
-          "start": 354,
-          "end": 504,
-          "genre": "drama",
-          "score": 47,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "start": 349,
+          "end": 442,
+          "genre": "news",
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH68_P4",
-          "start": 504,
-          "end": 577,
+          "start": 442,
+          "end": 566,
           "genre": "news",
-          "score": 80,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         }
       ]
     },
@@ -3255,42 +3255,42 @@
         {
           "program_id": "L_CH69_P0",
           "start": 0,
-          "end": 49,
+          "end": 64,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "score": 68,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH69_P1",
-          "start": 49,
-          "end": 90,
-          "genre": "talk",
-          "score": 92,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 64,
+          "end": 141,
+          "genre": "news",
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH69_P2",
-          "start": 90,
-          "end": 241,
-          "genre": "drama",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 141,
+          "end": 291,
+          "genre": "news",
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH69_P3",
-          "start": 241,
-          "end": 353,
-          "genre": "talk",
-          "score": 50,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 291,
+          "end": 434,
+          "genre": "news",
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH69_P4",
-          "start": 353,
+          "start": 434,
           "end": 481,
-          "genre": "news",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "genre": "sports",
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         }
       ]
     },
@@ -3301,42 +3301,42 @@
         {
           "program_id": "L_CH70_P0",
           "start": 0,
-          "end": 126,
+          "end": 147,
           "genre": "news",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         },
         {
           "program_id": "L_CH70_P1",
-          "start": 126,
-          "end": 216,
+          "start": 147,
+          "end": 263,
           "genre": "news",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=XtBdrvg6Rn0"
+          "score": 61,
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         },
         {
           "program_id": "L_CH70_P2",
-          "start": 216,
-          "end": 359,
+          "start": 263,
+          "end": 334,
           "genre": "news",
-          "score": 76,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "score": 68,
+          "link": "https://www.youtube.com/watch?v=nNkZaDFCouo"
         },
         {
           "program_id": "L_CH70_P3",
-          "start": 359,
-          "end": 502,
-          "genre": "news",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "start": 334,
+          "end": 459,
+          "genre": "music",
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH70_P4",
-          "start": 502,
-          "end": 612,
-          "genre": "variety",
-          "score": 85,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 459,
+          "end": 555,
+          "genre": "news",
+          "score": 99,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         }
       ]
     },
@@ -3347,42 +3347,42 @@
         {
           "program_id": "L_CH71_P0",
           "start": 0,
-          "end": 124,
+          "end": 100,
           "genre": "news",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 64,
+          "link": "https://www.youtube.com/watch?v=3GBZXHMcq7Y"
         },
         {
           "program_id": "L_CH71_P1",
-          "start": 124,
-          "end": 230,
-          "genre": "news",
-          "score": 55,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "start": 100,
+          "end": 207,
+          "genre": "kids",
+          "score": 64,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         },
         {
           "program_id": "L_CH71_P2",
-          "start": 230,
-          "end": 384,
+          "start": 207,
+          "end": 323,
           "genre": "news",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH71_P3",
-          "start": 384,
-          "end": 542,
-          "genre": "talk",
-          "score": 68,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 323,
+          "end": 476,
+          "genre": "news",
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH71_P4",
-          "start": 542,
-          "end": 638,
-          "genre": "variety",
-          "score": 82,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 476,
+          "end": 598,
+          "genre": "news",
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         }
       ]
     },
@@ -3393,42 +3393,42 @@
         {
           "program_id": "L_CH72_P0",
           "start": 0,
-          "end": 136,
+          "end": 114,
           "genre": "news",
-          "score": 71,
-          "link": "https://www.youtube.com/watch?v=896Jw7zsEZg"
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH72_P1",
-          "start": 136,
-          "end": 225,
-          "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
+          "start": 114,
+          "end": 210,
+          "genre": "documentary",
+          "score": 44,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH72_P2",
-          "start": 225,
-          "end": 299,
-          "genre": "kids",
-          "score": 78,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 210,
+          "end": 311,
+          "genre": "music",
+          "score": 64,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH72_P3",
-          "start": 299,
-          "end": 381,
+          "start": 311,
+          "end": 442,
           "genre": "news",
-          "score": 70,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH72_P4",
-          "start": 381,
-          "end": 533,
+          "start": 442,
+          "end": 541,
           "genre": "news",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=9-hlu64ayls"
+          "score": 91,
+          "link": "https://www.youtube.com/watch?v=0sb7fF0O3eA"
         }
       ]
     },
@@ -3439,42 +3439,42 @@
         {
           "program_id": "L_CH73_P0",
           "start": 0,
-          "end": 146,
+          "end": 107,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=ujg1TiziNQ8"
         },
         {
           "program_id": "L_CH73_P1",
-          "start": 146,
-          "end": 262,
-          "genre": "kids",
-          "score": 54,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 107,
+          "end": 217,
+          "genre": "news",
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH73_P2",
-          "start": 262,
-          "end": 406,
+          "start": 217,
+          "end": 366,
           "genre": "news",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 74,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH73_P3",
-          "start": 406,
-          "end": 495,
+          "start": 366,
+          "end": 480,
           "genre": "news",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "score": 78,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         },
         {
           "program_id": "L_CH73_P4",
-          "start": 495,
-          "end": 536,
+          "start": 480,
+          "end": 572,
           "genre": "news",
-          "score": 92,
-          "link": "https://www.youtube.com/watch?v=CQ_CT3DZKUs"
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         }
       ]
     },
@@ -3485,42 +3485,42 @@
         {
           "program_id": "L_CH74_P0",
           "start": 0,
-          "end": 53,
-          "genre": "talk",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "end": 59,
+          "genre": "music",
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH74_P1",
-          "start": 53,
-          "end": 126,
-          "genre": "drama",
-          "score": 77,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 59,
+          "end": 176,
+          "genre": "news",
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH74_P2",
-          "start": 126,
-          "end": 238,
+          "start": 176,
+          "end": 315,
           "genre": "news",
-          "score": 55,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 96,
+          "link": "https://www.youtube.com/watch?v=IvqVBNkToO4"
         },
         {
           "program_id": "L_CH74_P3",
-          "start": 238,
-          "end": 397,
+          "start": 315,
+          "end": 413,
           "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=fEfGW6ufpi4"
         },
         {
           "program_id": "L_CH74_P4",
-          "start": 397,
-          "end": 541,
+          "start": 413,
+          "end": 508,
           "genre": "sports",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=wlauDsOguW0"
+          "score": 99,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         }
       ]
     },
@@ -3531,42 +3531,42 @@
         {
           "program_id": "L_CH75_P0",
           "start": 0,
-          "end": 80,
-          "genre": "sports",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=C1U451zzwnA"
+          "end": 127,
+          "genre": "news",
+          "score": 52,
+          "link": "https://www.youtube.com/watch?v=eEkJPewvkvI"
         },
         {
           "program_id": "L_CH75_P1",
-          "start": 80,
-          "end": 196,
+          "start": 127,
+          "end": 254,
           "genre": "news",
-          "score": 88,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=UWzojHsVD50"
         },
         {
           "program_id": "L_CH75_P2",
-          "start": 196,
-          "end": 352,
+          "start": 254,
+          "end": 408,
           "genre": "news",
-          "score": 46,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=DGhCHi91WUE"
         },
         {
           "program_id": "L_CH75_P3",
-          "start": 352,
-          "end": 467,
-          "genre": "talk",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 408,
+          "end": 504,
+          "genre": "news",
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=r1OHEgrR7ls"
         },
         {
           "program_id": "L_CH75_P4",
-          "start": 467,
-          "end": 545,
-          "genre": "drama",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "start": 504,
+          "end": 638,
+          "genre": "news",
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         }
       ]
     },
@@ -3577,42 +3577,42 @@
         {
           "program_id": "L_CH76_P0",
           "start": 0,
-          "end": 92,
+          "end": 123,
           "genre": "news",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=DGhCHi91WUE"
         },
         {
           "program_id": "L_CH76_P1",
-          "start": 92,
-          "end": 226,
-          "genre": "news",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "start": 123,
+          "end": 270,
+          "genre": "talk",
+          "score": 68,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         },
         {
           "program_id": "L_CH76_P2",
-          "start": 226,
-          "end": 333,
+          "start": 270,
+          "end": 329,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH76_P3",
-          "start": 333,
-          "end": 476,
-          "genre": "music",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=a_z5sSeeZUs"
+          "start": 329,
+          "end": 455,
+          "genre": "news",
+          "score": 42,
+          "link": "https://www.youtube.com/watch?v=gz46MascGhg"
         },
         {
           "program_id": "L_CH76_P4",
-          "start": 476,
-          "end": 572,
+          "start": 455,
+          "end": 531,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "score": 56,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         }
       ]
     },
@@ -3623,42 +3623,42 @@
         {
           "program_id": "L_CH77_P0",
           "start": 0,
-          "end": 154,
+          "end": 143,
           "genre": "news",
-          "score": 60,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH77_P1",
-          "start": 154,
-          "end": 236,
-          "genre": "drama",
-          "score": 56,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 143,
+          "end": 299,
+          "genre": "news",
+          "score": 44,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH77_P2",
-          "start": 236,
-          "end": 321,
-          "genre": "news",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=896Jw7zsEZg"
+          "start": 299,
+          "end": 391,
+          "genre": "sports",
+          "score": 46,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         },
         {
           "program_id": "L_CH77_P3",
-          "start": 321,
-          "end": 406,
-          "genre": "kids",
-          "score": 54,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 391,
+          "end": 482,
+          "genre": "news",
+          "score": 56,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH77_P4",
-          "start": 406,
-          "end": 541,
+          "start": 482,
+          "end": 573,
           "genre": "news",
-          "score": 46,
-          "link": "https://www.youtube.com/watch?v=zi9knajcejY"
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=eEkJPewvkvI"
         }
       ]
     },
@@ -3669,42 +3669,42 @@
         {
           "program_id": "L_CH78_P0",
           "start": 0,
-          "end": 155,
+          "end": 140,
           "genre": "news",
-          "score": 71,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "score": 91,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH78_P1",
-          "start": 155,
-          "end": 203,
-          "genre": "news",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "start": 140,
+          "end": 272,
+          "genre": "kids",
+          "score": 97,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH78_P2",
-          "start": 203,
-          "end": 342,
+          "start": 272,
+          "end": 401,
           "genre": "news",
-          "score": 60,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "score": 55,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH78_P3",
-          "start": 342,
-          "end": 460,
+          "start": 401,
+          "end": 508,
           "genre": "news",
-          "score": 62,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 44,
+          "link": "https://www.youtube.com/watch?v=r1OHEgrR7ls"
         },
         {
           "program_id": "L_CH78_P4",
-          "start": 460,
-          "end": 516,
+          "start": 508,
+          "end": 601,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=896Jw7zsEZg"
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         }
       ]
     },
@@ -3715,42 +3715,42 @@
         {
           "program_id": "L_CH79_P0",
           "start": 0,
-          "end": 94,
-          "genre": "variety",
-          "score": 89,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "end": 155,
+          "genre": "news",
+          "score": 74,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH79_P1",
-          "start": 94,
-          "end": 230,
-          "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "start": 155,
+          "end": 238,
+          "genre": "sports",
+          "score": 88,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH79_P2",
-          "start": 230,
-          "end": 356,
-          "genre": "news",
-          "score": 58,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "start": 238,
+          "end": 337,
+          "genre": "sports",
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         },
         {
           "program_id": "L_CH79_P3",
-          "start": 356,
-          "end": 441,
+          "start": 337,
+          "end": 477,
           "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "score": 66,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH79_P4",
-          "start": 441,
-          "end": 567,
+          "start": 477,
+          "end": 627,
           "genre": "news",
-          "score": 99,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         }
       ]
     },
@@ -3761,42 +3761,42 @@
         {
           "program_id": "L_CH80_P0",
           "start": 0,
-          "end": 41,
+          "end": 130,
           "genre": "news",
-          "score": 48,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "score": 73,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         },
         {
           "program_id": "L_CH80_P1",
-          "start": 41,
-          "end": 194,
+          "start": 130,
+          "end": 185,
           "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
+          "score": 58,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH80_P2",
-          "start": 194,
-          "end": 263,
-          "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=u-kRTOK6rjU"
+          "start": 185,
+          "end": 273,
+          "genre": "sports",
+          "score": 91,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH80_P3",
-          "start": 263,
-          "end": 359,
+          "start": 273,
+          "end": 429,
           "genre": "news",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         },
         {
           "program_id": "L_CH80_P4",
-          "start": 359,
-          "end": 487,
-          "genre": "news",
-          "score": 83,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "start": 429,
+          "end": 575,
+          "genre": "talk",
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         }
       ]
     },
@@ -3807,42 +3807,42 @@
         {
           "program_id": "L_CH81_P0",
           "start": 0,
-          "end": 138,
+          "end": 97,
           "genre": "news",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH81_P1",
-          "start": 138,
-          "end": 245,
+          "start": 97,
+          "end": 164,
           "genre": "news",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 78,
+          "link": "https://www.youtube.com/watch?v=IvqVBNkToO4"
         },
         {
           "program_id": "L_CH81_P2",
-          "start": 245,
-          "end": 389,
+          "start": 164,
+          "end": 294,
           "genre": "news",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 78,
+          "link": "https://www.youtube.com/watch?v=DvEZvqlZXHI"
         },
         {
           "program_id": "L_CH81_P3",
-          "start": 389,
-          "end": 523,
+          "start": 294,
+          "end": 449,
           "genre": "news",
-          "score": 85,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "score": 79,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH81_P4",
-          "start": 523,
-          "end": 627,
+          "start": 449,
+          "end": 583,
           "genre": "news",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=eEkJPewvkvI"
         }
       ]
     },
@@ -3853,42 +3853,42 @@
         {
           "program_id": "L_CH82_P0",
           "start": 0,
-          "end": 150,
+          "end": 158,
           "genre": "news",
-          "score": 50,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=3GBZXHMcq7Y"
         },
         {
           "program_id": "L_CH82_P1",
-          "start": 150,
-          "end": 275,
+          "start": 158,
+          "end": 207,
           "genre": "news",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "score": 90,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         },
         {
           "program_id": "L_CH82_P2",
-          "start": 275,
-          "end": 419,
-          "genre": "drama",
-          "score": 48,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 207,
+          "end": 365,
+          "genre": "news",
+          "score": 65,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH82_P3",
-          "start": 419,
-          "end": 523,
+          "start": 365,
+          "end": 475,
           "genre": "news",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH82_P4",
-          "start": 523,
-          "end": 647,
+          "start": 475,
+          "end": 601,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 77,
+          "link": "https://www.youtube.com/watch?v=pgo8EdpOqwo"
         }
       ]
     },
@@ -3899,42 +3899,42 @@
         {
           "program_id": "L_CH83_P0",
           "start": 0,
-          "end": 104,
-          "genre": "kids",
-          "score": 80,
-          "link": "https://www.youtube.com/watch?v=_83kRe3-jes"
+          "end": 117,
+          "genre": "news",
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         },
         {
           "program_id": "L_CH83_P1",
-          "start": 104,
-          "end": 247,
-          "genre": "drama",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 117,
+          "end": 274,
+          "genre": "sports",
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=fJ80tSLCWFg"
         },
         {
           "program_id": "L_CH83_P2",
-          "start": 247,
-          "end": 395,
+          "start": 274,
+          "end": 407,
           "genre": "news",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=SuKpfZiKt0Y"
         },
         {
           "program_id": "L_CH83_P3",
-          "start": 395,
-          "end": 510,
+          "start": 407,
+          "end": 471,
           "genre": "news",
-          "score": 45,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "score": 51,
+          "link": "https://www.youtube.com/watch?v=eEkJPewvkvI"
         },
         {
           "program_id": "L_CH83_P4",
-          "start": 510,
-          "end": 598,
-          "genre": "news",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "start": 471,
+          "end": 548,
+          "genre": "talk",
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=s5FhvbIX-3o"
         }
       ]
     },
@@ -3945,42 +3945,42 @@
         {
           "program_id": "L_CH84_P0",
           "start": 0,
-          "end": 97,
-          "genre": "drama",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "end": 66,
+          "genre": "news",
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=N6KKmsF4xtM"
         },
         {
           "program_id": "L_CH84_P1",
-          "start": 97,
-          "end": 202,
+          "start": 66,
+          "end": 177,
           "genre": "news",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=aHj29SMut9M"
+          "score": 55,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH84_P2",
-          "start": 202,
-          "end": 342,
-          "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "start": 177,
+          "end": 296,
+          "genre": "kids",
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH84_P3",
-          "start": 342,
-          "end": 444,
+          "start": 296,
+          "end": 408,
           "genre": "news",
-          "score": 96,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 54,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH84_P4",
-          "start": 444,
-          "end": 583,
+          "start": 408,
+          "end": 486,
           "genre": "news",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 88,
+          "link": "https://www.youtube.com/watch?v=Vh0_28EGjhE"
         }
       ]
     },
@@ -3991,42 +3991,42 @@
         {
           "program_id": "L_CH85_P0",
           "start": 0,
-          "end": 59,
+          "end": 114,
           "genre": "news",
-          "score": 60,
-          "link": "https://www.youtube.com/watch?v=F4ghuiWXbOo"
+          "score": 40,
+          "link": "https://www.youtube.com/watch?v=IvqVBNkToO4"
         },
         {
           "program_id": "L_CH85_P1",
-          "start": 59,
-          "end": 135,
+          "start": 114,
+          "end": 197,
           "genre": "news",
-          "score": 62,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH85_P2",
-          "start": 135,
-          "end": 280,
-          "genre": "kids",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=_83kRe3-jes"
+          "start": 197,
+          "end": 261,
+          "genre": "news",
+          "score": 70,
+          "link": "https://www.youtube.com/watch?v=ujg1TiziNQ8"
         },
         {
           "program_id": "L_CH85_P3",
-          "start": 280,
-          "end": 382,
+          "start": 261,
+          "end": 420,
           "genre": "news",
-          "score": 83,
-          "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=v3uNFhnF72g"
         },
         {
           "program_id": "L_CH85_P4",
-          "start": 382,
-          "end": 466,
+          "start": 420,
+          "end": 554,
           "genre": "news",
-          "score": 54,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 44,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         }
       ]
     },
@@ -4037,42 +4037,42 @@
         {
           "program_id": "L_CH86_P0",
           "start": 0,
-          "end": 66,
-          "genre": "sports",
-          "score": 71,
-          "link": "https://www.youtube.com/watch?v=HvHArStUirM"
+          "end": 111,
+          "genre": "news",
+          "score": 52,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH86_P1",
-          "start": 66,
-          "end": 186,
+          "start": 111,
+          "end": 224,
           "genre": "news",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=n4tMcYuepww"
         },
         {
           "program_id": "L_CH86_P2",
-          "start": 186,
-          "end": 311,
-          "genre": "news",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "start": 224,
+          "end": 280,
+          "genre": "sports",
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH86_P3",
-          "start": 311,
-          "end": 408,
-          "genre": "drama",
-          "score": 80,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "start": 280,
+          "end": 421,
+          "genre": "news",
+          "score": 72,
+          "link": "https://www.youtube.com/watch?v=3GBZXHMcq7Y"
         },
         {
           "program_id": "L_CH86_P4",
-          "start": 408,
-          "end": 511,
+          "start": 421,
+          "end": 566,
           "genre": "news",
-          "score": 95,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
         }
       ]
     },
@@ -4083,42 +4083,42 @@
         {
           "program_id": "L_CH87_P0",
           "start": 0,
-          "end": 123,
+          "end": 151,
           "genre": "news",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=s5-hxlv--i8"
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH87_P1",
-          "start": 123,
-          "end": 201,
+          "start": 151,
+          "end": 243,
           "genre": "news",
-          "score": 51,
-          "link": "https://www.youtube.com/watch?v=qo65Qel0I4I"
+          "score": 96,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH87_P2",
-          "start": 201,
-          "end": 303,
+          "start": 243,
+          "end": 359,
           "genre": "news",
-          "score": 68,
-          "link": "https://www.youtube.com/watch?v=u-kRTOK6rjU"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=7tGUISwQDFA"
         },
         {
           "program_id": "L_CH87_P3",
-          "start": 303,
-          "end": 427,
-          "genre": "drama",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=byUhbJAxbCY"
+          "start": 359,
+          "end": 499,
+          "genre": "sports",
+          "score": 95,
+          "link": "https://www.youtube.com/watch?v=Rg7D57DBm0c"
         },
         {
           "program_id": "L_CH87_P4",
-          "start": 427,
-          "end": 554,
+          "start": 499,
+          "end": 599,
           "genre": "news",
-          "score": 72,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "score": 53,
+          "link": "https://www.youtube.com/watch?v=VNyyVHwlxKU"
         }
       ]
     },
@@ -4129,42 +4129,42 @@
         {
           "program_id": "L_CH88_P0",
           "start": 0,
-          "end": 146,
-          "genre": "talk",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "end": 148,
+          "genre": "news",
+          "score": 83,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH88_P1",
-          "start": 146,
-          "end": 206,
-          "genre": "news",
-          "score": 70,
-          "link": "https://www.youtube.com/watch?v=9oOsIAAULWc"
+          "start": 148,
+          "end": 294,
+          "genre": "sports",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH88_P2",
-          "start": 206,
-          "end": 310,
+          "start": 294,
+          "end": 417,
           "genre": "news",
-          "score": 79,
-          "link": "https://www.youtube.com/watch?v=896Jw7zsEZg"
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH88_P3",
-          "start": 310,
-          "end": 447,
+          "start": 417,
+          "end": 565,
           "genre": "news",
-          "score": 78,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "score": 99,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         },
         {
           "program_id": "L_CH88_P4",
-          "start": 447,
-          "end": 530,
+          "start": 565,
+          "end": 700,
           "genre": "kids",
-          "score": 73,
-          "link": "https://www.youtube.com/watch?v=_83kRe3-jes"
+          "score": 45,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         }
       ]
     },
@@ -4175,42 +4175,42 @@
         {
           "program_id": "L_CH89_P0",
           "start": 0,
-          "end": 153,
-          "genre": "drama",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "end": 95,
+          "genre": "news",
+          "score": 67,
+          "link": "https://www.youtube.com/watch?v=IvqVBNkToO4"
         },
         {
           "program_id": "L_CH89_P1",
-          "start": 153,
-          "end": 294,
-          "genre": "news",
-          "score": 71,
-          "link": "https://www.youtube.com/watch?v=CQ_CT3DZKUs"
+          "start": 95,
+          "end": 248,
+          "genre": "music",
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH89_P2",
-          "start": 294,
-          "end": 347,
+          "start": 248,
+          "end": 328,
           "genre": "news",
-          "score": 49,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 98,
+          "link": "https://www.youtube.com/watch?v=_vke7J4vB3I"
         },
         {
           "program_id": "L_CH89_P3",
-          "start": 347,
-          "end": 473,
+          "start": 328,
+          "end": 465,
           "genre": "sports",
-          "score": 96,
-          "link": "https://www.youtube.com/watch?v=C1U451zzwnA"
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH89_P4",
-          "start": 473,
-          "end": 618,
+          "start": 465,
+          "end": 616,
           "genre": "news",
-          "score": 95,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "score": 74,
+          "link": "https://www.youtube.com/watch?v=DGhCHi91WUE"
         }
       ]
     },
@@ -4221,42 +4221,42 @@
         {
           "program_id": "L_CH90_P0",
           "start": 0,
-          "end": 92,
-          "genre": "kids",
-          "score": 86,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "end": 101,
+          "genre": "news",
+          "score": 66,
+          "link": "https://www.youtube.com/watch?v=UWzojHsVD50"
         },
         {
           "program_id": "L_CH90_P1",
-          "start": 92,
-          "end": 191,
-          "genre": "news",
-          "score": 77,
-          "link": "https://www.youtube.com/watch?v=ar4XZrDIdxc"
+          "start": 101,
+          "end": 222,
+          "genre": "sports",
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=4WD8aFx6FG4"
         },
         {
           "program_id": "L_CH90_P2",
-          "start": 191,
-          "end": 321,
+          "start": 222,
+          "end": 380,
           "genre": "news",
-          "score": 80,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=N6KKmsF4xtM"
         },
         {
           "program_id": "L_CH90_P3",
-          "start": 321,
-          "end": 464,
+          "start": 380,
+          "end": 475,
           "genre": "news",
-          "score": 67,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 94,
+          "link": "https://www.youtube.com/watch?v=gz46MascGhg"
         },
         {
           "program_id": "L_CH90_P4",
-          "start": 464,
-          "end": 590,
+          "start": 475,
+          "end": 596,
           "genre": "news",
-          "score": 61,
-          "link": "https://www.youtube.com/watch?v=ilrh2qjsk80"
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         }
       ]
     },
@@ -4267,42 +4267,42 @@
         {
           "program_id": "L_CH91_P0",
           "start": 0,
-          "end": 156,
+          "end": 149,
           "genre": "news",
-          "score": 64,
-          "link": "https://www.youtube.com/watch?v=KwYGZ7LRf78"
+          "score": 84,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         },
         {
           "program_id": "L_CH91_P1",
-          "start": 156,
-          "end": 299,
-          "genre": "drama",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=SB8gIeUMIwQ"
+          "start": 149,
+          "end": 287,
+          "genre": "sports",
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH91_P2",
-          "start": 299,
-          "end": 371,
+          "start": 287,
+          "end": 378,
           "genre": "sports",
-          "score": 81,
-          "link": "https://www.youtube.com/watch?v=HvHArStUirM"
+          "score": 69,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH91_P3",
-          "start": 371,
-          "end": 414,
-          "genre": "variety",
-          "score": 93,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 378,
+          "end": 513,
+          "genre": "sports",
+          "score": 72,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH91_P4",
-          "start": 414,
-          "end": 554,
-          "genre": "documentary",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
+          "start": 513,
+          "end": 655,
+          "genre": "news",
+          "score": 68,
+          "link": "https://www.youtube.com/watch?v=n4tMcYuepww"
         }
       ]
     },
@@ -4313,41 +4313,41 @@
         {
           "program_id": "L_CH92_P0",
           "start": 0,
-          "end": 31,
+          "end": 135,
           "genre": "news",
-          "score": 70,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 42,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         },
         {
           "program_id": "L_CH92_P1",
-          "start": 31,
-          "end": 136,
-          "genre": "kids",
-          "score": 54,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 135,
+          "end": 171,
+          "genre": "documentary",
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=bPr8DExseYQ"
         },
         {
           "program_id": "L_CH92_P2",
-          "start": 136,
-          "end": 275,
-          "genre": "news",
-          "score": 48,
-          "link": "https://www.youtube.com/watch?v=zi9knajcejY"
+          "start": 171,
+          "end": 300,
+          "genre": "sports",
+          "score": 47,
+          "link": "https://www.youtube.com/watch?v=M7zZLfj85Dk"
         },
         {
           "program_id": "L_CH92_P3",
-          "start": 275,
-          "end": 395,
+          "start": 300,
+          "end": 449,
           "genre": "news",
-          "score": 78,
-          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=ujg1TiziNQ8"
         },
         {
           "program_id": "L_CH92_P4",
-          "start": 395,
-          "end": 547,
+          "start": 449,
+          "end": 594,
           "genre": "news",
-          "score": 40,
+          "score": 94,
           "link": "https://www.youtube.com/watch?v=uCgonaBOi_E"
         }
       ]
@@ -4359,42 +4359,42 @@
         {
           "program_id": "L_CH93_P0",
           "start": 0,
-          "end": 119,
+          "end": 108,
           "genre": "news",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 99,
+          "link": "https://www.youtube.com/watch?v=gz46MascGhg"
         },
         {
           "program_id": "L_CH93_P1",
-          "start": 119,
-          "end": 215,
+          "start": 108,
+          "end": 258,
           "genre": "news",
-          "score": 57,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "score": 82,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         },
         {
           "program_id": "L_CH93_P2",
-          "start": 215,
-          "end": 325,
+          "start": 258,
+          "end": 381,
           "genre": "sports",
-          "score": 92,
-          "link": "https://www.youtube.com/watch?v=C1U451zzwnA"
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=Rg7D57DBm0c"
         },
         {
           "program_id": "L_CH93_P3",
-          "start": 325,
-          "end": 463,
+          "start": 381,
+          "end": 540,
           "genre": "news",
-          "score": 84,
-          "link": "https://www.youtube.com/watch?v=wmD0dqplz3o"
+          "score": 69,
+          "link": "https://www.youtube.com/watch?v=rdy7xm-NEFE"
         },
         {
           "program_id": "L_CH93_P4",
-          "start": 463,
-          "end": 609,
-          "genre": "talk",
-          "score": 77,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 540,
+          "end": 666,
+          "genre": "news",
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         }
       ]
     },
@@ -4405,42 +4405,42 @@
         {
           "program_id": "L_CH94_P0",
           "start": 0,
-          "end": 116,
-          "genre": "news",
-          "score": 51,
-          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
+          "end": 95,
+          "genre": "kids",
+          "score": 78,
+          "link": "https://www.youtube.com/watch?v=lTHQs400Bi8"
         },
         {
           "program_id": "L_CH94_P1",
-          "start": 116,
-          "end": 263,
-          "genre": "drama",
-          "score": 98,
-          "link": "https://www.youtube.com/watch?v=yDt5E0J8cYY"
+          "start": 95,
+          "end": 224,
+          "genre": "news",
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=GBz7I_YR_10"
         },
         {
           "program_id": "L_CH94_P2",
-          "start": 263,
-          "end": 365,
-          "genre": "drama",
-          "score": 63,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "start": 224,
+          "end": 262,
+          "genre": "sports",
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=VlMO90EIO8Y"
         },
         {
           "program_id": "L_CH94_P3",
-          "start": 365,
-          "end": 435,
+          "start": 262,
+          "end": 401,
           "genre": "news",
-          "score": 77,
-          "link": "https://www.youtube.com/watch?v=896Jw7zsEZg"
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=vBzWeMasikI"
         },
         {
           "program_id": "L_CH94_P4",
-          "start": 435,
-          "end": 487,
+          "start": 401,
+          "end": 547,
           "genre": "news",
-          "score": 55,
-          "link": "https://www.youtube.com/watch?v=CQ_CT3DZKUs"
+          "score": 92,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         }
       ]
     },
@@ -4451,42 +4451,42 @@
         {
           "program_id": "L_CH95_P0",
           "start": 0,
-          "end": 89,
-          "genre": "kids",
-          "score": 70,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "end": 117,
+          "genre": "news",
+          "score": 61,
+          "link": "https://www.youtube.com/watch?v=2uaVPaR3noQ"
         },
         {
           "program_id": "L_CH95_P1",
-          "start": 89,
-          "end": 129,
-          "genre": "news",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=896Jw7zsEZg"
+          "start": 117,
+          "end": 273,
+          "genre": "sports",
+          "score": 41,
+          "link": "https://www.youtube.com/watch?v=BKS_Ydl7Ulo"
         },
         {
           "program_id": "L_CH95_P2",
-          "start": 129,
-          "end": 251,
-          "genre": "news",
-          "score": 41,
-          "link": "https://www.youtube.com/watch?v=Y5m1XeaNZhI"
+          "start": 273,
+          "end": 420,
+          "genre": "sports",
+          "score": 44,
+          "link": "https://www.youtube.com/watch?v=q9sjXvgbDRg"
         },
         {
           "program_id": "L_CH95_P3",
-          "start": 251,
-          "end": 306,
+          "start": 420,
+          "end": 496,
           "genre": "news",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=-v9g6KdtI_4"
+          "score": 71,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         },
         {
           "program_id": "L_CH95_P4",
-          "start": 306,
-          "end": 445,
+          "start": 496,
+          "end": 626,
           "genre": "news",
-          "score": 56,
-          "link": "https://www.youtube.com/watch?v=zi9knajcejY"
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=OMV8MYqPWco"
         }
       ]
     },
@@ -4497,42 +4497,42 @@
         {
           "program_id": "L_CH96_P0",
           "start": 0,
-          "end": 107,
+          "end": 136,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=XtzTxvY-f_k"
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=5NIooCCIpno"
         },
         {
           "program_id": "L_CH96_P1",
-          "start": 107,
-          "end": 216,
-          "genre": "drama",
-          "score": 97,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 136,
+          "end": 180,
+          "genre": "news",
+          "score": 42,
+          "link": "https://www.youtube.com/watch?v=0sb7fF0O3eA"
         },
         {
           "program_id": "L_CH96_P2",
-          "start": 216,
-          "end": 352,
+          "start": 180,
+          "end": 266,
           "genre": "news",
-          "score": 94,
-          "link": "https://www.youtube.com/watch?v=YQT-BZr5pp0"
+          "score": 75,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         },
         {
           "program_id": "L_CH96_P3",
-          "start": 352,
-          "end": 482,
-          "genre": "drama",
-          "score": 89,
-          "link": "https://www.youtube.com/watch?v=ZNFsxbJEGZE"
+          "start": 266,
+          "end": 326,
+          "genre": "kids",
+          "score": 63,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH96_P4",
-          "start": 482,
-          "end": 635,
+          "start": 326,
+          "end": 441,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=rR_tAZtk45g"
+          "score": 48,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         }
       ]
     },
@@ -4543,42 +4543,42 @@
         {
           "program_id": "L_CH97_P0",
           "start": 0,
-          "end": 60,
-          "genre": "drama",
-          "score": 42,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "end": 128,
+          "genre": "news",
+          "score": 86,
+          "link": "https://www.youtube.com/watch?v=jG-0EdaaU-U"
         },
         {
           "program_id": "L_CH97_P1",
-          "start": 60,
-          "end": 166,
+          "start": 128,
+          "end": 160,
           "genre": "news",
-          "score": 59,
-          "link": "https://www.youtube.com/watch?v=8mfOl1eCq4Y"
+          "score": 49,
+          "link": "https://www.youtube.com/watch?v=ZK5qcwRiEW8"
         },
         {
           "program_id": "L_CH97_P2",
-          "start": 166,
-          "end": 236,
-          "genre": "sports",
-          "score": 75,
-          "link": "https://www.youtube.com/watch?v=HvHArStUirM"
+          "start": 160,
+          "end": 217,
+          "genre": "news",
+          "score": 53,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         },
         {
           "program_id": "L_CH97_P3",
-          "start": 236,
-          "end": 355,
+          "start": 217,
+          "end": 333,
           "genre": "news",
-          "score": 46,
-          "link": "https://www.youtube.com/watch?v=H9yGXQFsyjg"
+          "score": 79,
+          "link": "https://www.youtube.com/watch?v=DvEZvqlZXHI"
         },
         {
           "program_id": "L_CH97_P4",
-          "start": 355,
-          "end": 449,
-          "genre": "talk",
-          "score": 53,
-          "link": "https://www.youtube.com/watch?v=AYEAgZy4UWM"
+          "start": 333,
+          "end": 466,
+          "genre": "news",
+          "score": 50,
+          "link": "https://www.youtube.com/watch?v=8v01Hl3H850"
         }
       ]
     },
@@ -4589,42 +4589,42 @@
         {
           "program_id": "L_CH98_P0",
           "start": 0,
-          "end": 107,
+          "end": 73,
           "genre": "news",
-          "score": 40,
-          "link": "https://www.youtube.com/watch?v=dosvjNYvX08"
+          "score": 85,
+          "link": "https://www.youtube.com/watch?v=YWRB2DF1Bsw"
         },
         {
           "program_id": "L_CH98_P1",
-          "start": 107,
-          "end": 261,
+          "start": 73,
+          "end": 177,
           "genre": "news",
-          "score": 66,
-          "link": "https://www.youtube.com/watch?v=GXbqGNacMtg"
+          "score": 56,
+          "link": "https://www.youtube.com/watch?v=DvEZvqlZXHI"
         },
         {
           "program_id": "L_CH98_P2",
-          "start": 261,
-          "end": 332,
-          "genre": "kids",
-          "score": 89,
-          "link": "https://www.youtube.com/watch?v=x3JhrpdNE_Q"
+          "start": 177,
+          "end": 292,
+          "genre": "sports",
+          "score": 76,
+          "link": "https://www.youtube.com/watch?v=qsrumttTtJk"
         },
         {
           "program_id": "L_CH98_P3",
-          "start": 332,
-          "end": 491,
-          "genre": "drama",
-          "score": 50,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 292,
+          "end": 374,
+          "genre": "news",
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=eEkJPewvkvI"
         },
         {
           "program_id": "L_CH98_P4",
-          "start": 491,
-          "end": 567,
+          "start": 374,
+          "end": 463,
           "genre": "news",
-          "score": 44,
-          "link": "https://www.youtube.com/watch?v=Z7EHOYzfKvI"
+          "score": 69,
+          "link": "https://www.youtube.com/watch?v=7w0ioShxhuw"
         }
       ]
     },
@@ -4635,42 +4635,42 @@
         {
           "program_id": "L_CH99_P0",
           "start": 0,
-          "end": 149,
-          "genre": "sports",
-          "score": 52,
-          "link": "https://www.youtube.com/watch?v=C1U451zzwnA"
+          "end": 138,
+          "genre": "music",
+          "score": 60,
+          "link": "https://www.youtube.com/watch?v=qd9EL3_8z_w"
         },
         {
           "program_id": "L_CH99_P1",
-          "start": 149,
-          "end": 289,
-          "genre": "news",
-          "score": 69,
-          "link": "https://www.youtube.com/watch?v=iw1EqW-rHK8"
+          "start": 138,
+          "end": 283,
+          "genre": "kids",
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=FxJAFQZZkQ0"
         },
         {
           "program_id": "L_CH99_P2",
-          "start": 289,
-          "end": 360,
-          "genre": "variety",
-          "score": 43,
-          "link": "https://www.youtube.com/watch?v=3k1dy-oNmFs"
+          "start": 283,
+          "end": 345,
+          "genre": "news",
+          "score": 89,
+          "link": "https://www.youtube.com/watch?v=ydPa9jC6jDk"
         },
         {
           "program_id": "L_CH99_P3",
-          "start": 360,
-          "end": 515,
-          "genre": "drama",
-          "score": 55,
-          "link": "https://www.youtube.com/watch?v=MxthZ4iSlQ4"
+          "start": 345,
+          "end": 498,
+          "genre": "news",
+          "score": 87,
+          "link": "https://www.youtube.com/watch?v=1FkJWkNQaGA"
         },
         {
           "program_id": "L_CH99_P4",
-          "start": 515,
-          "end": 658,
+          "start": 498,
+          "end": 653,
           "genre": "news",
-          "score": 87,
-          "link": "https://www.youtube.com/watch?v=b83ns2mC5do"
+          "score": 43,
+          "link": "https://www.youtube.com/watch?v=bUvhxfB56nM"
         }
       ]
     }
