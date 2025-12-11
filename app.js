@@ -195,10 +195,13 @@ channelSelect.addEventListener('change', (e) => {
 
 function minutesToDate(min) {
   const d = new Date();
-  d.setHours(10, 0, 0, 0); // Start from 8:00 AM
-  d.setMinutes(min); 
+  const hours = Math.floor(min / 60);
+  const minutes = min % 60;
+
+  d.setHours(hours, minutes, 0, 0);
   return d;
 }
+
 
 
 function startTicker() {
