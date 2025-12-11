@@ -1,48 +1,97 @@
 <!doctype html>
 <html lang="sq">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>YouTube Live Scheduler</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YouTube Live Scheduler</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div id="app">
-<header>
-<h1>YouTube Live Scheduler</h1>
-<div class="controls" >
-<input id="instanceUrl" type="text" style="display: none;" placeholder="Paste instance JSON URL (raw)" />
-<button id="loadBtn" style="display: none;">Load schedule</button>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo-play">
+        <span class="logo-triangle"></span>
+      </div>
+      <div class="brand-text">
+        <span class="brand-title">YouTube Live Scheduler</span>
+        <span class="brand-subtitle">TV-style auto playlist</span>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div class="channel-selector">
+        <label for="channelSelect">Channel</label>
+        <select id="channelSelect">
+          <option value="all">All Channels</option>
+        </select>
+      </div>
+
+      <div class="controls">
+        <input id="instanceUrl" type="text" placeholder="Paste instance JSON URL (raw)" />
+        <button id="loadBtn">Load schedule</button>
+      </div>
+
+      <button id="refreshBtn" class="icon-btn" title="Refresh schedule">⟳</button>
+      <button id="themeToggle" class="icon-btn" title="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="layout-main">
+      <div id="status" class="status-badge">Status: waiting for schedule...</div>
+
+      <section class="player-card">
+        <div id="playerContainer">
+          <div id="startingSoonBadge" class="starting-soon-badge hidden">
+            Starting soon
+          </div>
+
+          <div id="upNextOverlay" class="up-next-overlay hidden">
+            <div class="up-next-label">
+              Up next in <span id="upNextCountdown">--</span>s
+            </div>
+            <div id="upNextTitle" class="up-next-title"></div>
+          </div>
+
+          <div id="playerOverlay" class="player-overlay glass">
+            <div id="playerPlaceholder">No video loaded</div>
+          </div>
+        </div>
+
+        <div id="nowBar" class="now-bar">
+          <div class="now-bar-top">
+            <span id="nowBarTitle">Nothing playing</span>
+            <span id="nowBarMeta" class="now-bar-meta"></span>
+          </div>
+          <div class="now-bar-track">
+            <div id="nowBarProgress" class="now-bar-progress"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="programInfo" class="program-card">
+      </section>
+    </section>
+
+    <aside class="guide-card">
+      <div class="guide-header">
+        <h2>Schedule</h2>
+        <span class="guide-subtitle">Now / Next / Later</span>
+      </div>
+      <div id="miniGuide" class="mini-guide">
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <small>
+      Designed for GitHub Pages / static hosting • Autoplay + fullscreen behavior depends on browser policies (user gesture may be required).
+    </small>
+  </footer>
 </div>
-<div class="channel-selector">
-<label for="channelSelect">Select Channel:</label>
-<select id="channelSelect">
-<option value="all">All Channels</option>
-</select>
-</div>
-</header>
 
-
-<main>
-<div id="status">Status: waiting for schedule...</div>
-<div id="programInfo"></div>
-
-
-<div id="playerContainer">
-<!-- iframe will be injected here -->
-<div id="playerPlaceholder">No video loaded</div>
-</div>
-
-
-<div id="miniGuide"></div>
-</main>
-
-
-<footer>
-<small>Designed for GitHub Pages / static hosting • Autoplay + fullscreen behavior depends on browser policies (user gesture may be required).</small>
-</footer>
-</div>
-
+<div id="toastContainer" class="toast-container"></div>
 
 <script src="app.js"></script>
 </body>
