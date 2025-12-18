@@ -1,4 +1,5 @@
 const DEFAULT_INSTANCE_URL = ""; 
+const SCHEDULER_API = "https://api-host-scheduar.onrender.com/api/Schedule";
 
 function extractVideoId(url) {
   if (!url) return null;
@@ -29,8 +30,6 @@ const statusEl = document.getElementById("status");
 const infoEl = document.getElementById("programInfo");
 const playerContainer = document.getElementById("playerContainer");
 const placeholder = document.getElementById("playerPlaceholder");
-const inputUrl = document.getElementById("instanceUrl");
-const loadBtn = document.getElementById("loadBtn");
 const miniGuide = document.getElementById("miniGuide");
 const channelSelect = document.getElementById("channelSelect");
 
@@ -48,7 +47,6 @@ const startingSoonBadge = document.getElementById("startingSoonBadge");
 const toastContainer = document.getElementById("toastContainer");
 
 
-inputUrl.value = DEFAULT_INSTANCE_URL;
 
 let instanceData = null;
 let timeline = [];
@@ -60,15 +58,10 @@ let selectedChannel = "all";
 
 
 window.addEventListener("DOMContentLoaded", () => {
-  loadInstance("auto");
+  loadInstance();
 });
 
 
-loadBtn.addEventListener("click", () => {
-  const url = inputUrl.value.trim();
-  if (!url) return alert("Please enter the JSON URL.");
-  loadInstance(url);
-});
 
 themeToggle.addEventListener("click", () => {
   const isLight = document.body.getAttribute("data-theme") === "light";
@@ -78,103 +71,40 @@ themeToggle.addEventListener("click", () => {
 
 refreshBtn.addEventListener("click", () => {
   showToast("Refreshing schedule…");
-  loadInstance("auto");
+  loadInstance();
 });
 document.body.setAttribute("data-theme", "dark");
 
-async function loadInstance(url) {
-  clearInterval(tickTimer);
-  statusEl.textContent = "Loading...";
+async function loadInstance() {
+  if (tickTimer) clearInterval(tickTimer);
+  statusEl.textContent = "Running scheduling algorithm...";
 
   try {
-    
-    if (url !== "auto") {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error("HTTP " + res.status);
-    }
+    const instanceRes = await fetch("instanceData.json");
+    instanceData = await instanceRes.json();
 
-   
-    const now = new Date();
-    const currentSeconds =
-      now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
-    const currentMinutes = Math.floor(currentSeconds / 10); 
+    const payload = buildSchedulerPayload(instanceData);
+    const res = await fetch(SCHEDULER_API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
 
-    const video1Start = currentMinutes - 1;
-    const video1End = currentMinutes + 1; 
+    if (!res.ok) throw new Error("Scheduler failed");
 
-    const video2Start = currentMinutes + 1;
-    const video2End = currentMinutes + 2; 
+    const scheduleResult = await res.json();
 
-    const video3Start = currentMinutes + 2;
-    const video3End = currentMinutes + 3; 
+    buildTimelineFromSchedule(scheduleResult);
 
-    const video4Start = currentMinutes + 3;
-    const video4End = currentMinutes + 4; 
-
-    const video5Start = currentMinutes + 4;
-    const video5End = currentMinutes + 100; 
-
-    const res2 = await fetch("instanceData.json");
-    instanceData = await res2.json();
-
-    statusEl.textContent = "Schedule loaded";
-
-    prepareTimeline();
+    statusEl.textContent = "Optimized schedule loaded";
     startTicker();
   } catch (err) {
-    statusEl.textContent = "Error loading JSON";
+    statusEl.textContent = "Error loading schedule";
     infoEl.textContent = err.message;
   }
 }
 
 
-
-function prepareTimeline() {
-  fullTimeline = [];
-
-  const channels = instanceData.channels || [];
-
-
-  channelSelect.innerHTML = '<option value="all">All Channels</option>';
-  channels.forEach((ch) => {
-    const option = document.createElement('option');
-    option.value = ch.channel_name;
-    option.textContent = ch.channel_name;
-    channelSelect.appendChild(option);
-    
-    (ch.programs || []).forEach((p) => {
-      const startMinutes = p.start;
-      const endMinutes = p.end;
-      const videoId = extractVideoId(p.link);
-
-      const startDate = minutesToDate(startMinutes);
-      const endDate = minutesToDate(endMinutes);
-
-      fullTimeline.push({
-        channel_id: ch.channel_id,
-        channel_name: ch.channel_name,
-        startDate,
-        endDate,
-        durationMin: endMinutes - startMinutes,
-        videoId,
-        raw_start: startMinutes,
-        raw_end: endMinutes,
-        genre: p.genre,
-        score: p.score,
-        program_id: p.program_id,
-      });
-
-    });
-  });
-
-
-  fullTimeline.sort((a, b) => a.startDate - b.startDate);
-
-  filterTimelineByChannel();
-
-  infoEl.innerHTML = `Loaded ${timeline.length} programs for ${selectedChannel === 'all' ? 'all channels' : selectedChannel}.`;
-  renderMiniGuide();
-}
 
 function filterTimelineByChannel() {
   if (selectedChannel === "all") {
@@ -193,12 +123,18 @@ channelSelect.addEventListener('change', (e) => {
   tick(); 
 });
 
+// function minutesToDate(min) {
+//   const d = new Date();
+//   const hours = Math.floor(min / 60);
+//   const minutes = min % 60;
+
+//   d.setHours(hours, minutes, 0, 0);
+//   return d;
+// }
 function minutesToDate(min) {
   const d = new Date();
-  const hours = Math.floor(min / 60);
-  const minutes = min % 60;
-
-  d.setHours(hours, minutes, 0, 0);
+  d.setHours(0, 0, 0, 0); 
+  d.setMinutes(min);
   return d;
 }
 
@@ -518,3 +454,86 @@ function showToast(message) {
   }, 2500);
 
 }
+
+function buildSchedulerPayload(instanceData) {
+  return {
+    opening_time: 0,
+    closing_time: 723,
+    min_duration: 30,
+    max_consecutive_genre: 2,
+    channels_count: instanceData.channels.length,
+    switch_penalty: 3,
+    termination_penalty: 15,
+    priority_blocks: [], 
+    time_preferences: [], 
+    channels: instanceData.channels,
+  };
+}
+function buildTimelineFromSchedule(scheduleResult) {
+  fullTimeline = [];
+
+  const scheduled = scheduleResult?.scheduled_programs || [];
+  if (!scheduled.length) {
+    infoEl.innerHTML = "Scheduler returned no scheduled programs.";
+    channelSelect.innerHTML = '<option value="all">All Channels</option>';
+    timeline = [];
+    currentProgram = null;
+    return;
+  }
+
+  const programIndex = {};
+
+  (instanceData?.channels || []).forEach((ch) => {
+    (ch.programs || []).forEach((p) => {
+      if (!p?.program_id) return;
+      programIndex[p.program_id] = {
+        ...p,
+        channel_id: ch.channel_id,
+        channel_name: ch.channel_name,
+      };
+    });
+  });
+
+  scheduled.forEach((sp) => {
+    const real = programIndex[sp.program_id];
+    if (!real) return;
+
+
+    const link = real.link || real.youtube_link || real.url || null;
+
+    fullTimeline.push({
+      channel_id: sp.channel_id ?? real.channel_id,
+      channel_name: real.channel_name || `Channel ${sp.channel_id}`,
+      startDate: minutesToDate(sp.start),
+      endDate: minutesToDate(sp.end),
+      durationMin: sp.end - sp.start,
+      videoId: extractVideoId(link),
+      raw_start: sp.start,
+      raw_end: sp.end,
+      genre: real.genre,
+      score: real.score,
+      program_id: sp.program_id,
+    });
+  });
+
+  fullTimeline.sort((a, b) => a.startDate - b.startDate);
+
+  channelSelect.innerHTML = '<option value="all">All Channels</option>';
+
+  const channelNames = [...new Set(fullTimeline.map((p) => p.channel_name))];
+  channelNames.forEach((name) => {
+    const opt = document.createElement("option");
+    opt.value = name;
+    opt.textContent = name;
+    channelSelect.appendChild(opt);
+  });
+
+  if (selectedChannel !== "all" && !channelNames.includes(selectedChannel)) {
+    selectedChannel = "all";
+    channelSelect.value = "all";
+  }
+  filterTimelineByChannel();
+  infoEl.innerHTML = `Loaded ${timeline.length} scheduled programs (${channelNames.length} channels).`;
+  renderMiniGuide();
+}
+
