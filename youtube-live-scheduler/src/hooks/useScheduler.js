@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import instanceData from "../data/instanceData.json";
+// import instanceData from "../data/instanceData.json";
 import { buildSchedulerPayload, runScheduler } from "../api/scheduler";
 import { extractVideoId } from "../utils/youtube";
 import { minutesToDate } from "../utils/time";
@@ -11,6 +11,8 @@ export function useScheduler() {
   const [currentProgram, setCurrentProgram] = useState(null);
   const [selectedChannel, setSelectedChannel] = useState("all");
   const [simNow, setSimNow] = useState(minutesToDate(0));
+  const [instanceData, setInstanceData] = useState(null);
+
 
   const tickTimer = useRef(null);
   const simulatedMinute = useRef(0);
@@ -25,19 +27,48 @@ export function useScheduler() {
     };
   }, []);
 
-  async function loadInstance() {
-    if (tickTimer.current) {
-      clearInterval(tickTimer.current);
-    }
+  // async function loadInstance() {
+  //   if (tickTimer.current) {
+  //     clearInterval(tickTimer.current);
+  //   }
+
+  //   setStatus("Running scheduling algorithm...");
+
+  //   try {
+  //     const payload = buildSchedulerPayload(instanceData);
+  //     const scheduleResult = await runScheduler(payload);
+
+  //     buildTimelineFromSchedule(scheduleResult);
+  //     simulatedMinute.current = 0; 
+  //     setStatus("Optimized schedule loaded");
+  //     startTicker();
+  //   } catch (err) {
+  //     console.error(err);
+  //     setStatus("Error loading schedule");
+  //   }
+  // }
+
+  async function loadInstance(customInstance) {
+    if (!customInstance) return;
 
     setStatus("Running scheduling algorithm...");
 
     try {
-      const payload = buildSchedulerPayload(instanceData);
+      const payload = buildSchedulerPayload(customInstance);
       const scheduleResult = await runScheduler(payload);
 
-      buildTimelineFromSchedule(scheduleResult);
-      simulatedMinute.current = 0; 
+      // 1️⃣ Ndërto timeline bazuar në instance
+      const newTimeline = buildTimelineFromSchedule(scheduleResult, customInstance);
+
+      // 2️⃣ Vendos timeline në state
+      setTimeline(newTimeline);
+
+      // 3️⃣ Vendos currentProgram në state (p.sh. programin e parë)
+      if (newTimeline.length > 0) {
+        setCurrentProgram(newTimeline[0]);
+      }
+
+      simulatedMinute.current = 0;
       setStatus("Optimized schedule loaded");
       startTicker();
     } catch (err) {
@@ -45,6 +76,8 @@ export function useScheduler() {
       setStatus("Error loading schedule");
     }
   }
+
+
 
   function filterTimelineByChannel(channel, baseList = fullTimeline) {
     setSelectedChannel(channel);
@@ -63,89 +96,63 @@ export function useScheduler() {
     tick();
   }
 
-function tick() {
-  if (!timeline.length && !fullTimeline.length) return;
+  function tick() {
+    if (!timeline.length && !fullTimeline.length) return;
 
-  simulatedMinute.current += 1;
+    simulatedMinute.current += 1;
 
-  const base = fullTimeline.length ? fullTimeline : timeline;
-  const maxMinute = Math.max(...base.map((p) => p.raw_end));
+    const base = fullTimeline.length ? fullTimeline : timeline;
+    const maxMinute = Math.max(...base.map((p) => p.raw_end));
 
-  if (simulatedMinute.current > maxMinute) {
-    simulatedMinute.current = 0;
-  }
-
-  const now = minutesToDate(simulatedMinute.current);
-  setSimNow(now);
-  const active = timeline.find((p) => now >= p.startDate && now < p.endDate);
-
-  setCurrentProgram(active || null);
-}
-
-  function buildTimelineFromSchedule(scheduleResult) {
-    const scheduled = scheduleResult?.scheduled_programs || [];
-
-    if (!scheduled.length) {
-      setTimeline([]);
-      setFullTimeline([]);
-      setCurrentProgram(null);
-      return;
+    if (simulatedMinute.current > maxMinute) {
+      simulatedMinute.current = 0;
     }
 
-    const programIndex = {};
+    const now = minutesToDate(simulatedMinute.current);
+    setSimNow(now);
+    const active = timeline.find((p) => now >= p.startDate && now < p.endDate);
 
-    instanceData.channels.forEach((ch) => {
-      (ch.programs || []).forEach((p) => {
-        if (!p?.program_id) return;
-
-        programIndex[p.program_id] = {
-          ...p,
-          channel_id: ch.channel_id,
-          channel_name: ch.channel_name,
-        };
-      });
-    });
-
-    const builtTimeline = [];
-
-    scheduled.forEach((sp) => {
-      const real =
-        programIndex[sp.program_id] ||
-        Object.values(programIndex).find((p) => p.program_id === sp.program_id);
-
-      if (!real) return;
-
-      const link = real.link || real.youtube_link || real.url || null;
-
-      builtTimeline.push({
-        channel_id: sp.channel_id ?? real.channel_id,
-        channel_name: real.channel_name || `Channel ${sp.channel_id}`,
-        startDate: minutesToDate(sp.start),
-        endDate: minutesToDate(sp.end),
-        durationMin: sp.end - sp.start,
-        videoId: extractVideoId(link),
-        raw_start: sp.start,
-        raw_end: sp.end,
-        genre: real.genre,
-        score: real.score,
-        program_id: sp.program_id,
-      });
-    });
-
-    builtTimeline.sort((a, b) => a.startDate - b.startDate);
-
-    setFullTimeline(builtTimeline);
-
-    if (
-      selectedChannel !== "all" &&
-      !builtTimeline.some((p) => p.channel_name === selectedChannel)
-    ) {
-      setSelectedChannel("all");
-      setTimeline(builtTimeline);
-    } else {
-      filterTimelineByChannel(selectedChannel, builtTimeline);
-    }
+    setCurrentProgram(active || null);
   }
+  function buildTimelineFromSchedule(scheduleResult, instance) {
+    if (!instance || !instance.channels) {
+      console.error("Instance invalid:", instance);
+      return [];
+    }
+
+    const timeline = instance.channels
+      .map(channel =>
+        channel.programs.map(program => {
+          let videoId = null;
+          if (program.link) {
+            const match = program.link.match(/v=([a-zA-Z0-9_-]+)/);
+            if (match) videoId = match[1];
+          }
+
+          // konverto start/end në Date bazuar në opening_time
+          const startDate = new Date();
+          startDate.setHours(0, 0, 0, 0); // nis nga ora 00:00
+          startDate.setMinutes(program.start); // shto minutat
+
+          const endDate = new Date();
+          endDate.setHours(0, 0, 0, 0);
+          endDate.setMinutes(program.end);
+
+          return {
+            ...program,
+            channel_name: channel.channel_name,
+            videoId,
+            startDate,
+            endDate,
+          };
+        })
+      )
+      .flat();
+
+
+    return timeline;
+  }
+
   return {
     status,
     timeline,

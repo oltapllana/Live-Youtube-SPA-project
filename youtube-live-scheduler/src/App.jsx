@@ -7,6 +7,7 @@ import ProgramInfo from "./components/ProgramInfo";
 import MiniGuide from "./components/MiniGuide";
 import NowBar from "./components/NowBar";
 import Toast from "./components/Toast";
+import ImportInstanceModal from "./components/ImportInstanceModal";
 
 export default function App() {
   const {
@@ -20,8 +21,12 @@ export default function App() {
     filterTimelineByChannel,
   } = useScheduler();
 
+  const [showImport, setShowImport] = useState(false);
+  const [instanceData, setInstanceData] = useState(null);
+
   const [toasts, setToasts] = useState([]);
 
+  // --- Toast helpers ---
   function addToast(message) {
     setToasts((prev) => [...prev, message]);
   }
@@ -30,6 +35,7 @@ export default function App() {
     setToasts((prev) => prev.filter((_, i) => i !== index));
   }
 
+  // --- Add toast kur programi ndryshon ---
   useEffect(() => {
     if (currentProgram) {
       addToast(`Program started: ${currentProgram.channel_name}`);
@@ -44,6 +50,8 @@ export default function App() {
         selectedChannel={selectedChannel}
         filterTimelineByChannel={filterTimelineByChannel}
         loadInstance={loadInstance}
+        channelsList={instanceData?.channels || []} // lista e plotë e kanaleve
+        onImportClick={() => setShowImport(true)}
       />
 
       {/* MAIN CONTENT */}
@@ -66,6 +74,20 @@ export default function App() {
           <MiniGuide timeline={timeline} now={simNow} />
         </aside>
       </main>
+
+      {/* MODAL: Import Instance */}
+      {showImport && (
+        <ImportInstanceModal
+          onClose={() => setShowImport(false)}
+          onImport={(instance) => {
+            console.log("Instance që po dërgohet:", instance); // shiko në console
+              setInstanceData(instance);   // <-- ruaj instance në state
+            loadInstance(instance); // kjo thërret scheduler
+            setShowImport(false);
+          }}
+
+        />
+      )}
 
       {/* TOASTS */}
       <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">

@@ -3,11 +3,10 @@ export default function Header({
   selectedChannel,
   filterTimelineByChannel,
   loadInstance,
+  onImportClick,
+  channelsList = [],  // <-- callback për modal
 }) {
-  const channels = [
-    "all",
-    ...Array.from(new Set(fullTimeline.map((p) => p.channel_name))),
-  ];
+   const channels = ["all", ...channelsList.map(c => c.channel_name)];
 
   return (
     <header className="sticky top-0 z-30 h-16 flex items-center justify-between px-6 bg-white/5 backdrop-blur border-b border-white/10">
@@ -31,6 +30,7 @@ export default function Header({
       </div>
 
       <div className="flex items-center gap-4">
+        {/* CHANNEL SELECT */}
         <select
           value={selectedChannel}
           onChange={(e) => filterTimelineByChannel(e.target.value)}
@@ -42,12 +42,20 @@ export default function Header({
             </option>
           ))}
         </select>
-
+        {/* REFRESH BUTTON */}
         <button
           onClick={loadInstance}
           className="h-9 px-4 rounded-lg text-sm font-medium bg-sky-500/90 hover:bg-sky-400 text-slate-900 transition shadow-sm"
         >
           Refresh
+        </button>
+
+        {/* IMPORT INSTANCE BUTTON */}
+        <button
+          onClick={onImportClick}
+          className="h-9 px-4 rounded-lg text-sm font-medium bg-purple-500/90 hover:bg-purple-400 text-slate-900 transition shadow-sm"
+        >
+          Import Instance
         </button>
       </div>
     </header>
