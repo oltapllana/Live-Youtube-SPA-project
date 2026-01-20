@@ -4,7 +4,7 @@ export default function Header({
   filterTimelineByChannel,
   loadInstance,
   onImportClick,
-  channelsList = [],  // <-- callback për modal
+  channelsList = [], 
 }) {
    const channels = ["all", ...channelsList.map(c => c.channel_name)];
 
@@ -30,7 +30,6 @@ export default function Header({
       </div>
 
       <div className="flex items-center gap-4">
-        {/* CHANNEL SELECT */}
         <select
           value={selectedChannel}
           onChange={(e) => filterTimelineByChannel(e.target.value)}
@@ -42,15 +41,12 @@ export default function Header({
             </option>
           ))}
         </select>
-        {/* REFRESH BUTTON */}
         <button
           onClick={loadInstance}
           className="h-9 px-4 rounded-lg text-sm font-medium bg-sky-500/90 hover:bg-sky-400 text-slate-900 transition shadow-sm"
         >
           Refresh
         </button>
-
-        {/* IMPORT INSTANCE BUTTON */}
         <button
           onClick={onImportClick}
           className="h-9 px-4 rounded-lg text-sm font-medium bg-purple-500/90 hover:bg-purple-400 text-slate-900 transition shadow-sm"

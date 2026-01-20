@@ -2,7 +2,6 @@ export default function Player({ program }) {
   if (!program?.videoId) {
     return (
       <div className="aspect-video rounded-2xl bg-gradient-to-br from-slate-900 to-sky-900 flex flex-col items-center justify-center text-slate-300 shadow-inner ring-1 ring-white/10">
-        <span className="text-3xl mb-2">📺</span>
         <span className="text-sm">No video playing</span>
       </div>
     );

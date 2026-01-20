@@ -7,7 +7,7 @@ export default function ImportInstanceModal({ onClose, onImport }) {
  function handleSave() {
   try {
     const parsed = JSON.parse(text.trim());
-    onImport(parsed); // ky do thërras loadInstance
+    onImport(parsed);
     onClose();
   } catch (e) {
     setError("Invalid JSON instance");

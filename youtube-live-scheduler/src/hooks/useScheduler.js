@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-// import instanceData from "../data/instanceData.json";
 import { buildSchedulerPayload, runScheduler } from "../api/scheduler";
 import { extractVideoId } from "../utils/youtube";
 import { minutesToDate } from "../utils/time";
@@ -27,26 +26,6 @@ export function useScheduler() {
     };
   }, []);
 
-  // async function loadInstance() {
-  //   if (tickTimer.current) {
-  //     clearInterval(tickTimer.current);
-  //   }
-
-  //   setStatus("Running scheduling algorithm...");
-
-  //   try {
-  //     const payload = buildSchedulerPayload(instanceData);
-  //     const scheduleResult = await runScheduler(payload);
-
-  //     buildTimelineFromSchedule(scheduleResult);
-  //     simulatedMinute.current = 0; 
-  //     setStatus("Optimized schedule loaded");
-  //     startTicker();
-  //   } catch (err) {
-  //     console.error(err);
-  //     setStatus("Error loading schedule");
-  //   }
-  // }
 
   async function loadInstance(customInstance) {
     if (!customInstance) return;
@@ -57,13 +36,10 @@ export function useScheduler() {
       const payload = buildSchedulerPayload(customInstance);
       const scheduleResult = await runScheduler(payload);
 
-      // 1️⃣ Ndërto timeline bazuar në instance
       const newTimeline = buildTimelineFromSchedule(scheduleResult, customInstance);
 
-      // 2️⃣ Vendos timeline në state
       setTimeline(newTimeline);
 
-      // 3️⃣ Vendos currentProgram në state (p.sh. programin e parë)
       if (newTimeline.length > 0) {
         setCurrentProgram(newTimeline[0]);
       }
