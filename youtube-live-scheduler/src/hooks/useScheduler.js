@@ -29,7 +29,6 @@ export function useScheduler() {
 
   async function loadInstance(customInstance) {
     if (!customInstance) return;
-
     setStatus("Running scheduling algorithm...");
 
     try {
@@ -38,6 +37,8 @@ export function useScheduler() {
 
       const newTimeline = buildTimelineFromSchedule(scheduleResult, customInstance);
 
+      // KRITIKE: Duhet t'i mbushësh të dyja state-et
+      setFullTimeline(newTimeline);
       setTimeline(newTimeline);
 
       if (newTimeline.length > 0) {
@@ -53,7 +54,23 @@ export function useScheduler() {
     }
   }
 
+  // Shto këtë useEffect që Player-i të përditësohet sapo ndërron kanalin
+  // pa pritur sekondën e radhës të ticker-it
+  useEffect(() => {
+    const currentMin = simulatedMinute.current;
+    let active = null;
 
+    if (selectedChannel === "all") {
+      active = fullTimeline.find(p => currentMin >= p.raw_start && currentMin < p.raw_end);
+    } else {
+      active = fullTimeline.find(p =>
+        p.channel_name === selectedChannel &&
+        currentMin >= p.raw_start &&
+        currentMin < p.raw_end
+      );
+    }
+    setCurrentProgram(active || null);
+  }, [selectedChannel, fullTimeline]);
 
   function filterTimelineByChannel(channel, baseList = fullTimeline) {
     setSelectedChannel(channel);
@@ -73,12 +90,12 @@ export function useScheduler() {
   }
 
   function tick() {
-    if (!timeline.length && !fullTimeline.length) return;
+    if (!fullTimeline.length) return;
 
     simulatedMinute.current += 1;
 
-    const base = fullTimeline.length ? fullTimeline : timeline;
-    const maxMinute = Math.max(...base.map((p) => p.raw_end));
+    // Gjejmë minutën maksimale nga të gjitha programet
+    const maxMinute = Math.max(...fullTimeline.map((p) => p.raw_end));
 
     if (simulatedMinute.current > maxMinute) {
       simulatedMinute.current = 0;
@@ -86,49 +103,58 @@ export function useScheduler() {
 
     const now = minutesToDate(simulatedMinute.current);
     setSimNow(now);
-    const active = timeline.find((p) => now >= p.startDate && now < p.endDate);
+
+    // LOGJIKA E RE:
+    let active = null;
+
+    if (selectedChannel === "all") {
+      // Nëse janë "all", gjej programin e parë që përshtatet me kohën (ose sipas prioriteti)
+      active = fullTimeline.find((p) =>
+        simulatedMinute.current >= p.raw_start &&
+        simulatedMinute.current < p.raw_end
+      );
+    } else {
+      // Nëse është zgjedhur kanal specifik, kërko programin AKTIV vetëm për atë kanal
+      active = fullTimeline.find((p) =>
+        p.channel_name === selectedChannel &&
+        simulatedMinute.current >= p.raw_start &&
+        simulatedMinute.current < p.raw_end
+      );
+    }
 
     setCurrentProgram(active || null);
   }
   function buildTimelineFromSchedule(scheduleResult, instance) {
-    if (!instance || !instance.channels) {
-      console.error("Instance invalid:", instance);
-      return [];
-    }
+    if (!instance || !instance.channels) return [];
 
-    const timeline = instance.channels
-      .map(channel =>
-        channel.programs.map(program => {
-          let videoId = null;
-          if (program.link) {
-            const match = program.link.match(/v=([a-zA-Z0-9_-]+)/);
-            if (match) videoId = match[1];
-          }
+    return instance.channels.flatMap(channel =>
+      channel.programs.map(program => {
+        let videoId = null;
+        if (program.link) {
+          const match = program.link.match(/[?&]v=([^&#]+)/);
+          if (match) videoId = match[1];
+        }
 
-          // konverto start/end në Date bazuar në opening_time
-          const startDate = new Date();
-          startDate.setHours(0, 0, 0, 0); // nis nga ora 00:00
-          startDate.setMinutes(program.start); // shto minutat
+        const startDate = new Date();
+        startDate.setHours(0, 0, 0, 0);
+        startDate.setMinutes(program.start);
 
-          const endDate = new Date();
-          endDate.setHours(0, 0, 0, 0);
-          endDate.setMinutes(program.end);
+        const endDate = new Date();
+        endDate.setHours(0, 0, 0, 0);
+        endDate.setMinutes(program.end);
 
-          return {
-            ...program,
-            channel_name: channel.channel_name,
-            videoId,
-            startDate,
-            endDate,
-          };
-        })
-      )
-      .flat();
-
-
-    return timeline;
+        return {
+          ...program,
+          channel_name: channel.channel_name,
+          videoId,
+          startDate,
+          endDate,
+          raw_start: program.start, // E rëndësishme për krahasim
+          raw_end: program.end      // E rëndësishme për krahasim
+        };
+      })
+    );
   }
-
   return {
     status,
     timeline,
@@ -136,6 +162,7 @@ export function useScheduler() {
     currentProgram,
     selectedChannel,
     simNow,
+    simMinute: simulatedMinute.current, 
     loadInstance,
     filterTimelineByChannel,
   };

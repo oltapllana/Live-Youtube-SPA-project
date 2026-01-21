@@ -4,9 +4,9 @@ export default function Header({
   filterTimelineByChannel,
   loadInstance,
   onImportClick,
-  channelsList = [], 
+  channelsList = [],
 }) {
-   const channels = ["all", ...channelsList.map(c => c.channel_name)];
+  const channels = ["all", ...channelsList.map(c => c.channel_name)];
 
   return (
     <header className="sticky top-0 z-30 h-16 flex items-center justify-between px-6 bg-white/5 backdrop-blur border-b border-white/10">
